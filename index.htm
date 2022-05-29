@@ -1,20 +1,13 @@
 <!DOCTYPE html
   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- saved from url=(0036)http://localhost:8080/escala/oficial -->
 <html>
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Escala Obreiros setor 7</title>
   <style type="text/css">
-    bodya {
-      background-image: url("BackGroudCloud.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    iframe {
+    #fra {
       border: none;
       height: 1000px;
       width: 100%;
@@ -24,23 +17,110 @@
     }
 
     body {
-      background: -webkit-gradient(linear, left top, left bottom, from(#047ae9), to(#4a9ce9));
-      background: -moz-linear-gradient(top, #047ae9, #4a9ce9);
-      filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#047ae9', EndColorStr='#4a9ce9');
+      background: -webkit-gradient(linear, left top, left bottom, from(#047ae9), to(#6aaae6));
+      background: -moz-linear-gradient(top, #047ae9, #6aaae6);
+      filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#047ae9', EndColorStr='#6aaae6');
+    }
+
+    #tl {
+      background-color: #1b8bf5;
+      font-size: 40px;
+      text-align: center;
+      font-style: oblique;
+    }
+
+    /* Style the button that is used to open and close the collapsible content */
+    .collapsible {
+      background-color: #1ec4da;
+      color: #000000;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+    }
+
+    /* Style the collapsible content. Note: hidden by default */
+    .content {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      background-color: #83c7ff;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active,
+    .collapsible:hover {
+      background-color: #95e5f0;
+    }
+
+    .collapsible:after {
+      content: '\02795';
+      /* Unicode character for "plus" sign (+) */
+      font-size: 13px;
+      color: white;
+      float: right;
+      margin-left: 5px;
+    }
+
+    .active:after {
+      content: "\2796";
+      /* Unicode character for "minus" sign (-) */
     }
   </style>
 </head>
 
 <body>
-  <a href="#">Ponto 1</a>
-  <a href="#">Ponto 2</a>
-  <a href="#">Ponto 3</a>
-  <a href="#">Oferta</a>
-  <a href="#">Posições templo</a>
-  <center>
-    <h1><u>Escala igreja</u></h1>
-    <iframe src="EscalaFrame.htm" />
-  </center>
+  <div id="tl">Escala igreja</div>
+  <div>
+    <button type="button" class="collapsible">Descrição de postos</button>
+    <div class="content">
+      <button type="button" class="collapsible">Ponto 1</button>
+      <div class="content">
+        <p>Auxilia o pastor e obreiros de púlpito com avisos e informações para os irmão da igreja.</p>
+      </div>
+      <button type="button" class="collapsible">Ponto 2</button>
+      <div class="content">
+        <p>Mocidade, pega a salva de contribuição e água para o pregador.</p>
+      </div>
+      <button type="button" class="collapsible">Ponto 3</button>
+      <div class="content">
+        <p>Recepção na porta da igreja.</p>
+      </div>
+      <button type="button" class="collapsible">Oferta</button>
+      <div class="content">
+        <p>Recolhe contribuições e dízimos com a salva, sempre em duplas.</p>
+      </div>
+      <button type="button" class="collapsible">Mapa da nave da igreja</button>
+      <div class="content">
+        <div id="mapa">
+          <img src="planta.jpg" alt="Planta" width="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <hr>
+    <object type="text/html" data="EscalaFrame.htm" id="fra"></object>
+  </div>
 </body>
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+</script>
 
 </html>
