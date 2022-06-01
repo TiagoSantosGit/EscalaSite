@@ -12,7 +12,7 @@
       border: none;
       height: 1000px;
       width: 100%;
-      display: block;
+      display: inline-table;
       margin: 0;
       padding: 0;
     }
@@ -24,10 +24,15 @@
     }
 
     #titulo {
-      background-color: #1b8bf5;
+      background: -webkit-gradient(linear, left top, left bottom, from(#e90477), to(#c97ea3));
       font-size: 40px;
       text-align: center;
       font-style: oblique;
+      border-radius: 8px;
+    }
+
+    #divcollapse {
+      padding: 3px;
     }
 
     /* Style the button that is used to open and close the collapsible content */
@@ -44,8 +49,8 @@
     }
 
     .collapsible1 {
-      padding: 05px;
-      width: 20%;
+      padding: 5px;
+      width: 180px;
       border-radius: 5px;
     }
 
@@ -66,7 +71,7 @@
     .collapsible:after {
       content: '\02795';
       /* Unicode character for "plus" sign (+) */
-      font-size: 13px;
+      font-size: 10px;
       color: white;
       float: right;
       margin-left: 5px;
@@ -82,7 +87,7 @@
 <body>
   <div id="titulo">Escala igreja</div>
   <div>
-    <div>
+    <div id="divcollapse">
       <button type="button" class="collapsible collapsible1">Descrição de postos</button>
       <div class="content">
         <button type="button" class="collapsible">Ponto 1</button>
@@ -110,10 +115,9 @@
       </div>
     </div>
   </div>
-
   <div>
     <hr>
-    <object type="text/html" data="EscalaFrame.htm" id="fra"></object>
+    <object type="text/html" data="EscalaFrame.htm" id="fra" />
   </div>
 </body>
 <script>
