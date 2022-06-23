@@ -5,7 +5,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="Logo.ico" />
+  <link rel="icon" href="logo.ico" />
   <title>Escala Obreiros</title>
   <style type="text/css">
     #obj {
@@ -89,7 +89,7 @@
   </style>
 </head>
 
-<body>
+<body onload="carregaImagem();">
   <div id="titulo">Escala Obreiros Setor 7</div>
   <div>
     <div id="divcollapse">
@@ -114,7 +114,7 @@
         <button type="button" class="collapsible">Mapa da nave da igreja</button>
         <div class="content">
           <div id="mapa">
-            <img src="Planta.jpg" alt="Planta" width="100%">
+            <img src="planta.jpg" alt="Planta" width="100%">
           </div>
         </div>
       </div>
@@ -122,10 +122,28 @@
   </div>
   <div>
     <hr>
-    <img src="Escala.png" alt="Escala" width="100%">
+    <img id="escAtu" src="Escala_0-0.png" alt="Escala" width="100%">
+    <hr>
+    <img id="escPro" src="Escala_0-0.png" alt="Escala" width="100%">
   </div>
 </body>
-<script>
+<script type="text/javascript">
+  function carregaImagem() {
+    let imgAtu = document.getElementById("escAtu");
+    let imgPro = document.getElementById("escPro");
+    let data = new Date();
+    let mes = data.getMonth() + 1;
+    let ano = data.getFullYear() - 2000;
+    imgAtu.src = `Escala_${mes}-${ano}.png`;
+    mes++;
+    if (mes == 13) {
+      mes = 1;
+      ano++;
+    }
+    imgPro.src = `Escala_${mes}-${ano}.png`;
+    imgAtu.onerror = () => { imgAtu.setAttribute("hidden", "true"); }
+    imgPro.onerror = () => { imgPro.setAttribute("hidden", "true"); }
+  };
   var coll = document.getElementsByClassName("collapsible");
   var i;
 
