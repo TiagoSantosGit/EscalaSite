@@ -1,14 +1,12 @@
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html;" charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="logo.ico" />
   <title>Escala Obreiros</title>
   <style type="text/css">
-
     body {
       background: -webkit-gradient(linear, left top, left bottom, from(#047ae9), to(#6aaae6));
       background: -moz-linear-gradient(top, #047ae9, #6aaae6);
@@ -23,8 +21,8 @@
       border-radius: 8px;
     }
 
-    #divcollapse {
-      padding: 3px;
+    .paddingTop {
+      padding-top: 3px;
     }
 
     .collapsible {
@@ -39,7 +37,7 @@
       font-size: 15px;
     }
 
-    .collapsible1 {
+    .collapsibleMain {
       padding: 5px;
       width: 180px;
       border-top-right-radius: 5px;
@@ -75,11 +73,11 @@
   </style>
 </head>
 
-<body onload="carregaImagem();">
+<body>
   <div id="titulo">Escala Obreiros Setor 7</div>
-  <div>
-    <div id="divcollapse">
-      <button type="button" class="collapsible collapsible1">Descrição de postos</button>
+  <div id="descricaoPosto">
+    <div class="paddingTop">
+      <button type="button" class="collapsible collapsibleMain">Descrição de postos</button>
       <div class="content">
         <button type="button" class="collapsible">Ponto 1</button>
         <div class="content">
@@ -106,33 +104,29 @@
       </div>
     </div>
   </div>
-  <div>
+  <div id="escalaImagem">
     <hr>
-    <img id="escAtu" src="Escala_0-0.png" alt="Escala Atual" width="100%">
+    <img id="escAtu" src="#" alt="Escala Atual" width="100%">
     <hr>
-    <img id="escPro" src="Escala_0-0.png" alt="Escala Proxima" width="100%">
+    <img id="escPro" src="#" alt="Escala Proxima" width="100%">
   </div>
 </body>
 <script type="text/javascript">
-  function carregaImagem() {
-    let imgAtu = document.getElementById("escAtu");
-    let imgPro = document.getElementById("escPro");
-    let data = new Date();
-    let mes = data.getMonth() + 1;
-    let ano = data.getFullYear() - 2000;
-    imgAtu.src = `Escala_${mes}-${ano}.png`;
-    mes++;
-    if (mes == 13) {
-      mes = 1;
-      ano++;
-    }
-    imgPro.src = `Escala_${mes}-${ano}.png`;
-    imgAtu.onerror = () => { imgAtu.setAttribute("hidden", "true"); }
-    imgPro.onerror = () => { imgPro.setAttribute("hidden", "true"); }
-  };
+  // Carrega a imagem da escala pegando mês atual e próximo mês
+  let imgAtu = document.getElementById("escAtu");
+  let imgPro = document.getElementById("escPro");
+  let data = new Date();
+  let mes = data.getMonth() + 1;
+  let ano = data.getFullYear() - 2000;
+  imgAtu.src = `Escala_${mes}-${ano}.png`;
+  mes++;
+  if (mes == 13) { mes = 1; ano++; }
+  imgPro.src = `Escala_${mes}-${ano}.png`;
+  imgAtu.onerror = () => { imgAtu.setAttribute("hidden", "true"); console.log("Escala mês atual indisponível, entre em contato com o administrador!"); }
+  imgPro.onerror = () => { imgPro.setAttribute("hidden", "true"); console.log("Escala próximo mês indisponível, entre em contato com o administrador!"); }
+  // Aplica evento de clique aos elementos cujo a classe possui 'collapsible'
   var coll = document.getElementsByClassName("collapsible");
   var i;
-
   for (i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function () {
       this.classList.toggle("active");
