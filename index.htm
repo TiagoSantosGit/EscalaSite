@@ -5,139 +5,60 @@
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="logo.ico" />
+  <link rel="stylesheet" href="style.css" />
   <title>Escala Obreiros</title>
-  <style type="text/css">
-    body {
-      background: -webkit-gradient(linear, left top, left bottom, from(#047ae9), to(#6aaae6));
-      background: -moz-linear-gradient(top, #047ae9, #6aaae6);
-      filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#047ae9', EndColorStr='#6aaae6');
-    }
-
-    #titulo {
-      background: -webkit-gradient(linear, left top, left bottom, from(#e90404), to(#db7777));
-      font-size: 30px;
-      text-align: center;
-      font-style: oblique;
-      border-radius: 8px;
-    }
-
-    .paddingTop {
-      padding-top: 3px;
-    }
-
-    .collapsible {
-      background-color: #1ec4da;
-      color: #000000;
-      cursor: pointer;
-      padding: 18px;
-      width: 100%;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 15px;
-    }
-
-    .collapsibleMain {
-      padding: 5px;
-      width: 180px;
-      border-top-right-radius: 5px;
-      border-top-left-radius: 5px;
-    }
-
-    .content {
-      padding: 0 18px;
-      display: none;
-      overflow: hidden;
-      background-color: #83c7ff;
-      border-top-right-radius: 5px;
-      border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
-    }
-
-    .active,
-    .collapsible:hover {
-      background-color: #95e5f0;
-    }
-
-    .collapsible:after {
-      content: '\02795';
-      font-size: 10px;
-      color: white;
-      float: right;
-      margin-left: 5px;
-    }
-
-    .active:after {
-      content: "\2796";
-    }
-  </style>
 </head>
 
 <body>
-  <div id="titulo">Escala Obreiros Setor 7</div>
-  <div id="descricaoPosto">
-    <div class="paddingTop">
-      <button type="button" class="collapsible collapsibleMain">Descrição de postos</button>
-      <div class="content">
-        <button type="button" class="collapsible">Ponto 1</button>
-        <div class="content">
-          <p>Auxilia o pastor e obreiros de púlpito com avisos e informações necessárias.</p>
-        </div>
-        <button type="button" class="collapsible">Ponto 2</button>
-        <div class="content">
-          <p>Mocidade, pega a salva de contribuição, recolhe contribuições e água para quem entregar a palavra.</p>
-        </div>
-        <button type="button" class="collapsible">Ponto 3</button>
-        <div class="content">
-          <p>Recepção dos irmãos e visitantes, favor chegar 15 minutos antes do início do culto.</p>
-        </div>
-        <button type="button" class="collapsible">Oferta</button>
-        <div class="content">
-          <p>Recolhe contribuições e dízimos com a salva, sempre em duplas.</p>
-        </div>
-        <button type="button" class="collapsible">Mapa da nave da igreja</button>
-        <div class="content">
-          <div id="mapa">
-            <img src="planta.jpg" alt="Planta" width="100%">
-          </div>
-        </div>
+  <header>
+    <div class="logo">
+      <span class="text-sm">Escala Obreiros Setor 7</span>
+    </div>
+    <nav class="menu">
+      <ul>
+        <li>
+          <a href="#" class="text-sm" onclick="javascript:postoContent(null,'contentPosto');">Descrição dos postos</a>
+        </li>
+        <li>
+          <a href="#" class="text-sm" onclick="javascript:alert('Não possui avisos!');">Avisos</a>
+        </li>
+        <li>
+          <a href="#" class="text-sm" onclick="javascript:trocaEsc();" id="btnEscPro">Escala próximo mês</a>
+        </li>
+      </ul>
+    </nav>
+    <aside class="login">
+      <a href="#" class="text-sm" onclick="javascript:alert('Funcionalidade indisponível!')">Login</a>
+    </aside>
+  </header>
+  <div class="corpoEscala">
+    <div id="contentPosto">
+      <div class="postos">
+        <a href="#" class="borderColor text-sm" onclick="javascript:postoContent(this,'ponto1');">Ponto 1</a>
+        <a href="#" class="borderColor text-sm" onclick="javascript:postoContent(this,'ponto2');">Ponto 2</a>
+        <a href="#" class="borderColor text-sm" onclick="javascript:postoContent(this,'ponto3');">Ponto 3</a>
+        <a href="#" class="borderColor text-sm" onclick="javascript:postoContent(this,'oferta');">Oferta</a>
+      </div>
+      <div id="ponto1" class="content">
+        <p>Auxilia o pastor e obreiros de púlpito com avisos e informações necessárias.</p>
+      </div>
+      <div id="ponto2" class="content">
+        <p>Mocidade, pega a salva de contribuição, recolhe contribuições e água para quem entregar a palavra.</p>
+      </div>
+      <div id="ponto3" class="content">
+        <p>Recepção dos irmãos e visitantes, favor chegar 15 minutos antes do início do culto.</p>
+      </div>
+      <div id="oferta" class="content">
+        <p>Recolhe contribuições e dízimos com a salva, sempre em duplas.</p>
       </div>
     </div>
+    <div id="escalaImagem">
+      <img id="escAtu" src="#" alt="Escala Atual">
+      <img id="escPro" src="#" alt="Escala Proxima">
+    </div>
   </div>
-  <div id="escalaImagem">
-    <hr>
-    <img id="escAtu" src="#" alt="Escala Atual" width="100%">
-    <hr>
-    <img id="escPro" src="#" alt="Escala Proxima" width="100%">
-  </div>
+  <footer></footer>
 </body>
-<script type="text/javascript">
-  // Carrega a imagem da escala pegando mês atual e próximo mês
-  let imgAtu = document.getElementById("escAtu");
-  let imgPro = document.getElementById("escPro");
-  let data = new Date();
-  let mes = data.getMonth() + 1;
-  let ano = data.getFullYear() - 2000;
-  imgAtu.src = `Escala_${mes}-${ano}.png`;
-  mes++;
-  if (mes == 13) { mes = 1; ano++; }
-  imgPro.src = `Escala_${mes}-${ano}.png`;
-  imgAtu.onerror = () => { imgAtu.setAttribute("hidden", "true"); console.log("Escala mês atual indisponível, entre em contato com o administrador!"); }
-  imgPro.onerror = () => { imgPro.setAttribute("hidden", "true"); console.log("Escala próximo mês indisponível, entre em contato com o administrador!"); }
-  // Aplica evento de clique aos elementos cujo a classe possui 'collapsible'
-  var coll = document.getElementsByClassName("collapsible");
-  var i;
-  for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function () {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.display === "block") {
-        content.style.display = "none";
-      } else {
-        content.style.display = "block";
-      }
-    });
-  }
-</script>
+<script type="text/javascript" src="script.js"></script>
 
 </html>
