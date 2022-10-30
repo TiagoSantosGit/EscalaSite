@@ -34,22 +34,23 @@
   <div class="corpoEscala">
     <div id="contentPosto">
       <div class="postos">
-        <a href="#" class="borderColor text-sm" onclick="javascript:postoContent(this,'ponto1');">Ponto 1</a>
-        <a href="#" class="borderColor text-sm" onclick="javascript:postoContent(this,'ponto2');">Ponto 2</a>
-        <a href="#" class="borderColor text-sm" onclick="javascript:postoContent(this,'ponto3');">Ponto 3</a>
-        <a href="#" class="borderColor text-sm" onclick="javascript:postoContent(this,'oferta');">Oferta</a>
+        <a href="#" class="text-sm" onclick="javascript:postoContent(this,'ponto1');">Ponto 1</a>
+        <a href="#" class="text-sm" onclick="javascript:postoContent(this,'ponto2');">Ponto 2</a>
+        <a href="#" class="text-sm" onclick="javascript:postoContent(this,'ponto3');">Ponto 3</a>
+        <a href="#" class="text-sm" onclick="javascript:postoContent(this,'oferta');">Oferta</a>
       </div>
       <div id="ponto1" class="content">
-        <p>Auxilia o pastor e obreiros de púlpito com avisos e informações necessárias.</p>
+        <p class="text-sm">Auxilia o pastor e obreiros de púlpito com avisos e informações necessárias.</p>
       </div>
       <div id="ponto2" class="content">
-        <p>Mocidade, pega a salva de contribuição, recolhe contribuições e água para quem entregar a palavra.</p>
+        <p class="text-sm">Mocidade, pega a salva de contribuição, recolhe contribuições e água para quem entregar a
+          palavra.</p>
       </div>
       <div id="ponto3" class="content">
-        <p>Recepção dos irmãos e visitantes, favor chegar 15 minutos antes do início do culto.</p>
+        <p class="text-sm">Recepção dos irmãos e visitantes, favor chegar 15 minutos antes do início do culto.</p>
       </div>
       <div id="oferta" class="content">
-        <p>Recolhe contribuições e dízimos com a salva, sempre em duplas.</p>
+        <p class="text-sm">Recolhe contribuições e dízimos com a salva, sempre em duplas.</p>
       </div>
     </div>
     <div id="escalaImagem">
@@ -57,7 +58,18 @@
       <img id="escPro" src="#" alt="Escala Proxima">
     </div>
   </div>
-  <footer></footer>
+  <footer>
+    <div class="row">
+      <div class="card">
+        <h2 class="text-sm">Versículo da bíblia</h2>
+        <p id="versiculo" class="text-sm">Aguarde...</p>
+        <div class="vers">
+          <p><span id="versiculoRef" class="text-sm"></span>
+            <img class="ico" src="bible.png" alt="Biblie" />
+          </p>
+        </div>
+      </div>
+  </footer>
 </body>
 <script type="text/javascript" src="script.js"></script>
 

@@ -12,6 +12,58 @@ imgPro.src = `Escala_${mes}-${ano}.png`;
 imgAtu.onerror = () => { imgAtu.setAttribute("hidden", "true"); console.log("Escala mês atual indisponível, entre em contato com o administrador!"); }
 imgPro.onerror = () => { console.log("Escala próximo mês indisponível, entre em contato com o administrador!"); }
 imgPro.onload = () => { btnEscPro.style.display = "block"; }
+/* requisita versículo da API aleatoriamente */
+let versiculo = document.getElementById("versiculo");
+let versiculoRef = document.getElementById("versiculoRef");
+
+ajax({
+    url: "estruBible.json",
+    method: "get",
+    sucesso(resposta) {
+        estruturaBiblica = JSON.parse(resposta)
+        const randomBooks = getRandom(estruturaBiblica.books.length);
+        const randomChapter = getRandom(estruturaBiblica.books[randomBooks].numberVerse.length);
+        const randomVerse = getRandom(estruturaBiblica.books[randomBooks].numberVerse[randomChapter].vers);
+        const abb = estruturaBiblica.books[randomBooks].abbrev;
+        const cha = estruturaBiblica.books[randomBooks].numberVerse[randomChapter].chap;
+        const ver = randomVerse > 0 ? randomVerse : 1;
+        ajax({
+            url: `https://www.abibliadigital.com.br/api/verses/nvi/${abb}/${cha}/${ver}`,
+            method: "get",
+            sucesso(resposta) {
+                const versoBiblico = JSON.parse(resposta)
+                versiculo.innerHTML = versoBiblico.text
+                versiculoRef.innerHTML = `${versoBiblico.book.name} ${versoBiblico.chapter}:${versoBiblico.number} (${versoBiblico.book.version})`
+            },
+            erro(e) {
+                versiculo.innerHTML = "Desculpe, não foi possível mostrar o versículo!"
+                versiculoRef.innerHTML = ""
+            }
+        })
+    }
+})
+
+/* Gera número aleatório */
+function getRandom(numberMax) {
+    return Math.floor(Math.random() * numberMax);
+}
+
+/* Requisição da API e do arquivo JSON*/
+function ajax(config) {
+    const xhr = new XMLHttpRequest()
+    xhr.open("GET", config.url, true)
+    xhr.onload = e => {
+        if (xhr.status === 200) {
+            config.sucesso(xhr.response)
+        } else if (xhr.status >= 400) {
+            config.erro({
+                codigo: xhr.status,
+                texto: xhr.statusText
+            })
+        }
+    }
+    xhr.send()
+}
 
 /*Mostra conteúdo de cada posto*/
 function postoContent(element, elementId) {
