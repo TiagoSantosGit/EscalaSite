@@ -1,4 +1,4 @@
-// Carrega a imagem da escala pegando mês atual e próximo mês
+/*Carrega a imagem da escala pegando mês atual e próximo mês*/
 let imgAtu = document.getElementById("escAtu");
 let imgPro = document.getElementById("escPro");
 const btnEscPro = document.getElementById("btnEscPro");
@@ -12,53 +12,62 @@ imgPro.src = `Escala_${mes}-${ano}.png`;
 imgAtu.onerror = () => { imgAtu.setAttribute("hidden", "true"); console.log("Escala mês atual indisponível, entre em contato com o administrador!"); }
 imgPro.onerror = () => { console.log("Escala próximo mês indisponível, entre em contato com o administrador!"); }
 imgPro.onload = () => { btnEscPro.style.display = "block"; }
-/* requisita versículo da API aleatoriamente */
-let versiculo = document.getElementById("versiculo");
-let versiculoRef = document.getElementById("versiculoRef");
-
+/*Requisita versículo da API aleatoriamente*/
+let verse = document.getElementById("verso");
+let verseRef = document.getElementById("versoRef");
+let mapBibleFont = getRandom(2) == 0 ? "mapBibleAT.min.json" : "mapBibleNT.min.json";
 ajax({
-    url: "estruBible.json",
+    url: mapBibleFont,
     method: "get",
-    sucesso(resposta) {
-        estruturaBiblica = JSON.parse(resposta)
-        const randomBooks = getRandom(estruturaBiblica.books.length);
-        const randomChapter = getRandom(estruturaBiblica.books[randomBooks].numberVerse.length);
-        const randomVerse = getRandom(estruturaBiblica.books[randomBooks].numberVerse[randomChapter].vers);
-        const abb = estruturaBiblica.books[randomBooks].abbrev;
-        const cha = estruturaBiblica.books[randomBooks].numberVerse[randomChapter].chap;
+    success(response) {
+        const mapBible = JSON.parse(response)
+        const randomBooks = getRandom(mapBible.books.length);
+        const randomChapter = getRandom(mapBible.books[randomBooks].chaptersVerses.length);
+        const randomVerse = getRandom(mapBible.books[randomBooks].chaptersVerses[randomChapter].totVers);
+        const abb = mapBible.books[randomBooks].abbrev;
+        const cha = mapBible.books[randomBooks].chaptersVerses[randomChapter].chap;
         const ver = randomVerse > 0 ? randomVerse : 1;
         ajax({
             url: `https://www.abibliadigital.com.br/api/verses/nvi/${abb}/${cha}/${ver}`,
             method: "get",
-            sucesso(resposta) {
-                const versoBiblico = JSON.parse(resposta)
-                versiculo.innerHTML = versoBiblico.text
-                versiculoRef.innerHTML = `${versoBiblico.book.name} ${versoBiblico.chapter}:${versoBiblico.number} (${versoBiblico.book.version})`
+            success(response) {
+                try {
+                    const verseBible = JSON.parse(response)
+                    verse.innerHTML = verseBible.text
+                    verseRef.innerHTML = `${verseBible.book.name} ${verseBible.chapter}:${verseBible.number} (${verseBible.book.version})`
+                } catch (e) {
+                    errorVerse(e)
+                }
             },
             erro(e) {
-                versiculo.innerHTML = "Desculpe, não foi possível mostrar o versículo!"
-                versiculoRef.innerHTML = ""
+                errorVerse(e)
             }
         })
     }
 })
 
-/* Gera número aleatório */
+/*Gera número aleatório*/
 function getRandom(numberMax) {
     return Math.floor(Math.random() * numberMax);
 }
 
-/* Requisição da API e do arquivo JSON*/
+/*Erro se houver*/
+function errorVerse(e) {
+    verse.innerHTML = "Desculpe, não foi possível mostrar o versículo!"
+    verseRef.innerHTML = ""
+}
+
+/*Requisição da API e do arquivo JSON*/
 function ajax(config) {
     const xhr = new XMLHttpRequest()
     xhr.open("GET", config.url, true)
     xhr.onload = e => {
         if (xhr.status === 200) {
-            config.sucesso(xhr.response)
+            config.success(xhr.response)
         } else if (xhr.status >= 400) {
             config.erro({
-                codigo: xhr.status,
-                texto: xhr.statusText
+                code: xhr.status,
+                text: xhr.statusText
             })
         }
     }

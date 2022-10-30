@@ -1,0 +1,17 @@
+{
+    "books": [
+        {
+            "abbrev": "gn",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 31
+                },
+                {
+                    "chap": 2,
+                    "totVers": 25
+                }
+            ]
+        }
+    ]
+}

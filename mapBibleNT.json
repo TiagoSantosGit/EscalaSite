@@ -1,0 +1,1208 @@
+{
+    "books": [
+        {
+            "abbrev": "mt",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 25
+                },
+                {
+                    "chap": 2,
+                    "totVers": 23
+                },
+                {
+                    "chap": 3,
+                    "totVers": 17
+                },
+                {
+                    "chap": 4,
+                    "totVers": 25
+                },
+                {
+                    "chap": 5,
+                    "totVers": 48
+                },
+                {
+                    "chap": 6,
+                    "totVers": 34
+                },
+                {
+                    "chap": 7,
+                    "totVers": 29
+                },
+                {
+                    "chap": 8,
+                    "totVers": 34
+                },
+                {
+                    "chap": 9,
+                    "totVers": 38
+                },
+                {
+                    "chap": 10,
+                    "totVers": 42
+                },
+                {
+                    "chap": 11,
+                    "totVers": 30
+                },
+                {
+                    "chap": 12,
+                    "totVers": 50
+                },
+                {
+                    "chap": 13,
+                    "totVers": 58
+                },
+                {
+                    "chap": 14,
+                    "totVers": 36
+                },
+                {
+                    "chap": 15,
+                    "totVers": 39
+                },
+                {
+                    "chap": 16,
+                    "totVers": 28
+                },
+                {
+                    "chap": 17,
+                    "totVers": 27
+                },
+                {
+                    "chap": 18,
+                    "totVers": 35
+                },
+                {
+                    "chap": 19,
+                    "totVers": 30
+                },
+                {
+                    "chap": 20,
+                    "totVers": 34
+                },
+                {
+                    "chap": 21,
+                    "totVers": 46
+                },
+                {
+                    "chap": 22,
+                    "totVers": 46
+                },
+                {
+                    "chap": 23,
+                    "totVers": 39
+                },
+                {
+                    "chap": 24,
+                    "totVers": 51
+                },
+                {
+                    "chap": 25,
+                    "totVers": 46
+                },
+                {
+                    "chap": 26,
+                    "totVers": 75
+                },
+                {
+                    "chap": 27,
+                    "totVers": 66
+                },
+                {
+                    "chap": 28,
+                    "totVers": 20
+                }
+            ]
+        },
+        {
+            "abbrev": "ef",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 23
+                },
+                {
+                    "chap": 2,
+                    "totVers": 22
+                },
+                {
+                    "chap": 3,
+                    "totVers": 21
+                },
+                {
+                    "chap": 4,
+                    "totVers": 32
+                },
+                {
+                    "chap": 5,
+                    "totVers": 33
+                },
+                {
+                    "chap": 6,
+                    "totVers": 24
+                }
+            ]
+        },
+        {
+            "abbrev": "mc",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 45
+                },
+                {
+                    "chap": 2,
+                    "totVers": 28
+                },
+                {
+                    "chap": 3,
+                    "totVers": 35
+                },
+                {
+                    "chap": 4,
+                    "totVers": 41
+                },
+                {
+                    "chap": 5,
+                    "totVers": 43
+                },
+                {
+                    "chap": 6,
+                    "totVers": 56
+                },
+                {
+                    "chap": 7,
+                    "totVers": 37
+                },
+                {
+                    "chap": 8,
+                    "totVers": 38
+                },
+                {
+                    "chap": 9,
+                    "totVers": 50
+                },
+                {
+                    "chap": 10,
+                    "totVers": 52
+                },
+                {
+                    "chap": 11,
+                    "totVers": 33
+                },
+                {
+                    "chap": 12,
+                    "totVers": 44
+                },
+                {
+                    "chap": 13,
+                    "totVers": 37
+                },
+                {
+                    "chap": 14,
+                    "totVers": 72
+                },
+                {
+                    "chap": 15,
+                    "totVers": 47
+                },
+                {
+                    "chap": 16,
+                    "totVers": 20
+                }
+            ]
+        },
+        {
+            "abbrev": "lc",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 80
+                },
+                {
+                    "chap": 2,
+                    "totVers": 52
+                },
+                {
+                    "chap": 3,
+                    "totVers": 38
+                },
+                {
+                    "chap": 4,
+                    "totVers": 44
+                },
+                {
+                    "chap": 5,
+                    "totVers": 39
+                },
+                {
+                    "chap": 6,
+                    "totVers": 49
+                },
+                {
+                    "chap": 7,
+                    "totVers": 50
+                },
+                {
+                    "chap": 8,
+                    "totVers": 56
+                },
+                {
+                    "chap": 9,
+                    "totVers": 62
+                },
+                {
+                    "chap": 10,
+                    "totVers": 42
+                },
+                {
+                    "chap": 11,
+                    "totVers": 53
+                },
+                {
+                    "chap": 12,
+                    "totVers": 59
+                },
+                {
+                    "chap": 13,
+                    "totVers": 35
+                },
+                {
+                    "chap": 14,
+                    "totVers": 35
+                },
+                {
+                    "chap": 15,
+                    "totVers": 32
+                },
+                {
+                    "chap": 16,
+                    "totVers": 31
+                },
+                {
+                    "chap": 17,
+                    "totVers": 37
+                },
+                {
+                    "chap": 18,
+                    "totVers": 43
+                },
+                {
+                    "chap": 19,
+                    "totVers": 48
+                },
+                {
+                    "chap": 20,
+                    "totVers": 47
+                },
+                {
+                    "chap": 21,
+                    "totVers": 37
+                },
+                {
+                    "chap": 22,
+                    "totVers": 71
+                },
+                {
+                    "chap": 23,
+                    "totVers": 56
+                },
+                {
+                    "chap": 24,
+                    "totVers": 53
+                }
+            ]
+        },
+        {
+            "abbrev": "jo",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 51
+                },
+                {
+                    "chap": 2,
+                    "totVers": 25
+                },
+                {
+                    "chap": 3,
+                    "totVers": 36
+                },
+                {
+                    "chap": 4,
+                    "totVers": 54
+                },
+                {
+                    "chap": 5,
+                    "totVers": 47
+                },
+                {
+                    "chap": 6,
+                    "totVers": 71
+                },
+                {
+                    "chap": 7,
+                    "totVers": 53
+                },
+                {
+                    "chap": 8,
+                    "totVers": 59
+                },
+                {
+                    "chap": 9,
+                    "totVers": 41
+                },
+                {
+                    "chap": 10,
+                    "totVers": 42
+                },
+                {
+                    "chap": 11,
+                    "totVers": 57
+                },
+                {
+                    "chap": 12,
+                    "totVers": 50
+                },
+                {
+                    "chap": 13,
+                    "totVers": 38
+                },
+                {
+                    "chap": 14,
+                    "totVers": 31
+                },
+                {
+                    "chap": 15,
+                    "totVers": 27
+                },
+                {
+                    "chap": 16,
+                    "totVers": 33
+                },
+                {
+                    "chap": 17,
+                    "totVers": 26
+                },
+                {
+                    "chap": 18,
+                    "totVers": 40
+                },
+                {
+                    "chap": 19,
+                    "totVers": 42
+                },
+                {
+                    "chap": 20,
+                    "totVers": 31
+                },
+                {
+                    "chap": 21,
+                    "totVers": 25
+                }
+            ]
+        },
+        {
+            "abbrev": "at",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 26
+                },
+                {
+                    "chap": 2,
+                    "totVers": 47
+                },
+                {
+                    "chap": 3,
+                    "totVers": 26
+                },
+                {
+                    "chap": 4,
+                    "totVers": 37
+                },
+                {
+                    "chap": 5,
+                    "totVers": 42
+                },
+                {
+                    "chap": 6,
+                    "totVers": 15
+                },
+                {
+                    "chap": 7,
+                    "totVers": 60
+                },
+                {
+                    "chap": 8,
+                    "totVers": 40
+                },
+                {
+                    "chap": 9,
+                    "totVers": 43
+                },
+                {
+                    "chap": 10,
+                    "totVers": 48
+                },
+                {
+                    "chap": 11,
+                    "totVers": 30
+                },
+                {
+                    "chap": 12,
+                    "totVers": 25
+                },
+                {
+                    "chap": 13,
+                    "totVers": 52
+                },
+                {
+                    "chap": 14,
+                    "totVers": 28
+                },
+                {
+                    "chap": 15,
+                    "totVers": 41
+                },
+                {
+                    "chap": 16,
+                    "totVers": 40
+                },
+                {
+                    "chap": 17,
+                    "totVers": 34
+                },
+                {
+                    "chap": 18,
+                    "totVers": 28
+                },
+                {
+                    "chap": 19,
+                    "totVers": 41
+                },
+                {
+                    "chap": 20,
+                    "totVers": 38
+                },
+                {
+                    "chap": 21,
+                    "totVers": 40
+                },
+                {
+                    "chap": 22,
+                    "totVers": 30
+                },
+                {
+                    "chap": 23,
+                    "totVers": 35
+                },
+                {
+                    "chap": 24,
+                    "totVers": 27
+                },
+                {
+                    "chap": 25,
+                    "totVers": 27
+                },
+                {
+                    "chap": 26,
+                    "totVers": 32
+                },
+                {
+                    "chap": 27,
+                    "totVers": 44
+                },
+                {
+                    "chap": 28,
+                    "totVers": 31
+                }
+            ]
+        },
+        {
+            "abbrev": "rm",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 32
+                },
+                {
+                    "chap": 2,
+                    "totVers": 29
+                },
+                {
+                    "chap": 3,
+                    "totVers": 31
+                },
+                {
+                    "chap": 4,
+                    "totVers": 25
+                },
+                {
+                    "chap": 5,
+                    "totVers": 21
+                },
+                {
+                    "chap": 6,
+                    "totVers": 23
+                },
+                {
+                    "chap": 7,
+                    "totVers": 25
+                },
+                {
+                    "chap": 8,
+                    "totVers": 39
+                },
+                {
+                    "chap": 9,
+                    "totVers": 33
+                },
+                {
+                    "chap": 10,
+                    "totVers": 21
+                },
+                {
+                    "chap": 11,
+                    "totVers": 36
+                },
+                {
+                    "chap": 12,
+                    "totVers": 21
+                },
+                {
+                    "chap": 13,
+                    "totVers": 14
+                },
+                {
+                    "chap": 14,
+                    "totVers": 23
+                },
+                {
+                    "chap": 15,
+                    "totVers": 33
+                },
+                {
+                    "chap": 16,
+                    "totVers": 27
+                }
+            ]
+        },
+        {
+            "abbrev": "1co",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 31
+                },
+                {
+                    "chap": 2,
+                    "totVers": 16
+                },
+                {
+                    "chap": 3,
+                    "totVers": 23
+                },
+                {
+                    "chap": 4,
+                    "totVers": 21
+                },
+                {
+                    "chap": 5,
+                    "totVers": 13
+                },
+                {
+                    "chap": 6,
+                    "totVers": 20
+                },
+                {
+                    "chap": 7,
+                    "totVers": 40
+                },
+                {
+                    "chap": 8,
+                    "totVers": 13
+                },
+                {
+                    "chap": 9,
+                    "totVers": 27
+                },
+                {
+                    "chap": 10,
+                    "totVers": 33
+                },
+                {
+                    "chap": 11,
+                    "totVers": 34
+                },
+                {
+                    "chap": 12,
+                    "totVers": 31
+                },
+                {
+                    "chap": 13,
+                    "totVers": 13
+                },
+                {
+                    "chap": 14,
+                    "totVers": 40
+                },
+                {
+                    "chap": 15,
+                    "totVers": 58
+                },
+                {
+                    "chap": 16,
+                    "totVers": 24
+                }
+            ]
+        },
+        {
+            "abbrev": "2co",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 24
+                },
+                {
+                    "chap": 2,
+                    "totVers": 17
+                },
+                {
+                    "chap": 3,
+                    "totVers": 18
+                },
+                {
+                    "chap": 4,
+                    "totVers": 18
+                },
+                {
+                    "chap": 5,
+                    "totVers": 21
+                },
+                {
+                    "chap": 6,
+                    "totVers": 18
+                },
+                {
+                    "chap": 7,
+                    "totVers": 16
+                },
+                {
+                    "chap": 8,
+                    "totVers": 24
+                },
+                {
+                    "chap": 9,
+                    "totVers": 15
+                },
+                {
+                    "chap": 10,
+                    "totVers": 18
+                },
+                {
+                    "chap": 11,
+                    "totVers": 33
+                },
+                {
+                    "chap": 12,
+                    "totVers": 21
+                },
+                {
+                    "chap": 13,
+                    "totVers": 13
+                }
+            ]
+        },
+        {
+            "abbrev": "gl",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 24
+                },
+                {
+                    "chap": 2,
+                    "totVers": 21
+                },
+                {
+                    "chap": 3,
+                    "totVers": 29
+                },
+                {
+                    "chap": 4,
+                    "totVers": 31
+                },
+                {
+                    "chap": 5,
+                    "totVers": 26
+                },
+                {
+                    "chap": 6,
+                    "totVers": 18
+                }
+            ]
+        },
+        {
+            "abbrev": "ef",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 23
+                },
+                {
+                    "chap": 2,
+                    "totVers": 22
+                },
+                {
+                    "chap": 3,
+                    "totVers": 21
+                },
+                {
+                    "chap": 4,
+                    "totVers": 32
+                },
+                {
+                    "chap": 5,
+                    "totVers": 33
+                },
+                {
+                    "chap": 6,
+                    "totVers": 24
+                }
+            ]
+        },
+        {
+            "abbrev": "fp",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 30
+                },
+                {
+                    "chap": 2,
+                    "totVers": 30
+                },
+                {
+                    "chap": 3,
+                    "totVers": 21
+                },
+                {
+                    "chap": 4,
+                    "totVers": 23
+                }
+            ]
+        },
+        {
+            "abbrev": "cl",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 29
+                },
+                {
+                    "chap": 2,
+                    "totVers": 23
+                },
+                {
+                    "chap": 3,
+                    "totVers": 25
+                },
+                {
+                    "chap": 4,
+                    "totVers": 18
+                }
+            ]
+        },
+        {
+            "abbrev": "1ts",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 10
+                },
+                {
+                    "chap": 2,
+                    "totVers": 20
+                },
+                {
+                    "chap": 3,
+                    "totVers": 13
+                },
+                {
+                    "chap": 4,
+                    "totVers": 18
+                },
+                {
+                    "chap": 5,
+                    "totVers": 28
+                }
+            ]
+        },
+        {
+            "abbrev": "2ts",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 12
+                },
+                {
+                    "chap": 2,
+                    "totVers": 17
+                },
+                {
+                    "chap": 3,
+                    "totVers": 18
+                }
+            ]
+        },
+        {
+            "abbrev": "1tm",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 20
+                },
+                {
+                    "chap": 2,
+                    "totVers": 15
+                },
+                {
+                    "chap": 3,
+                    "totVers": 16
+                },
+                {
+                    "chap": 4,
+                    "totVers": 16
+                },
+                {
+                    "chap": 5,
+                    "totVers": 25
+                },
+                {
+                    "chap": 6,
+                    "totVers": 21
+                }
+            ]
+        },
+        {
+            "abbrev": "2tm",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 18
+                },
+                {
+                    "chap": 2,
+                    "totVers": 26
+                },
+                {
+                    "chap": 3,
+                    "totVers": 16
+                },
+                {
+                    "chap": 4,
+                    "totVers": 22
+                }
+            ]
+        },
+        {
+            "abbrev": "tt",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 16
+                },
+                {
+                    "chap": 2,
+                    "totVers": 15
+                },
+                {
+                    "chap": 3,
+                    "totVers": 15
+                }
+            ]
+        },
+        {
+            "abbrev": "fm",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 25
+                }
+            ]
+        },
+        {
+            "abbrev": "hb",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 14
+                },
+                {
+                    "chap": 2,
+                    "totVers": 18
+                },
+                {
+                    "chap": 3,
+                    "totVers": 19
+                },
+                {
+                    "chap": 4,
+                    "totVers": 16
+                },
+                {
+                    "chap": 5,
+                    "totVers": 14
+                },
+                {
+                    "chap": 6,
+                    "totVers": 20
+                },
+                {
+                    "chap": 7,
+                    "totVers": 28
+                },
+                {
+                    "chap": 8,
+                    "totVers": 13
+                },
+                {
+                    "chap": 9,
+                    "totVers": 28
+                },
+                {
+                    "chap": 10,
+                    "totVers": 39
+                },
+                {
+                    "chap": 11,
+                    "totVers": 40
+                },
+                {
+                    "chap": 12,
+                    "totVers": 29
+                },
+                {
+                    "chap": 13,
+                    "totVers": 25
+                }
+            ]
+        },
+        {
+            "abbrev": "tg",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 27
+                },
+                {
+                    "chap": 2,
+                    "totVers": 26
+                },
+                {
+                    "chap": 3,
+                    "totVers": 18
+                },
+                {
+                    "chap": 4,
+                    "totVers": 17
+                },
+                {
+                    "chap": 5,
+                    "totVers": 20
+                }
+            ]
+        },
+        {
+            "abbrev": "1pe",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 25
+                },
+                {
+                    "chap": 2,
+                    "totVers": 25
+                },
+                {
+                    "chap": 3,
+                    "totVers": 22
+                },
+                {
+                    "chap": 4,
+                    "totVers": 19
+                },
+                {
+                    "chap": 5,
+                    "totVers": 14
+                }
+            ]
+        },
+        {
+            "abbrev": "2pe",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 21
+                },
+                {
+                    "chap": 2,
+                    "totVers": 22
+                },
+                {
+                    "chap": 3,
+                    "totVers": 18
+                }
+            ]
+        },
+        {
+            "abbrev": "1jo",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 10
+                },
+                {
+                    "chap": 2,
+                    "totVers": 29
+                },
+                {
+                    "chap": 3,
+                    "totVers": 24
+                },
+                {
+                    "chap": 4,
+                    "totVers": 21
+                },
+                {
+                    "chap": 5,
+                    "totVers": 21
+                }
+            ]
+        },
+        {
+            "abbrev": "2jo",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 13
+                }
+            ]
+        },
+        {
+            "abbrev": "3jo",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 15
+                }
+            ]
+        },
+        {
+            "abbrev": "jd",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 25
+                }
+            ]
+        },
+        {
+            "abbrev": "ap",
+            "chaptersVerses": [
+                {
+                    "chap": 1,
+                    "totVers": 20
+                },
+                {
+                    "chap": 2,
+                    "totVers": 29
+                },
+                {
+                    "chap": 3,
+                    "totVers": 22
+                },
+                {
+                    "chap": 4,
+                    "totVers": 11
+                },
+                {
+                    "chap": 5,
+                    "totVers": 14
+                },
+                {
+                    "chap": 6,
+                    "totVers": 17
+                },
+                {
+                    "chap": 7,
+                    "totVers": 17
+                },
+                {
+                    "chap": 8,
+                    "totVers": 13
+                },
+                {
+                    "chap": 9,
+                    "totVers": 21
+                },
+                {
+                    "chap": 10,
+                    "totVers": 11
+                },
+                {
+                    "chap": 11,
+                    "totVers": 19
+                },
+                {
+                    "chap": 12,
+                    "totVers": 17
+                },
+                {
+                    "chap": 13,
+                    "totVers": 18
+                },
+                {
+                    "chap": 14,
+                    "totVers": 20
+                },
+                {
+                    "chap": 15,
+                    "totVers": 8
+                },
+                {
+                    "chap": 16,
+                    "totVers": 21
+                },
+                {
+                    "chap": 17,
+                    "totVers": 18
+                },
+                {
+                    "chap": 18,
+                    "totVers": 24
+                },
+                {
+                    "chap": 19,
+                    "totVers": 21
+                },
+                {
+                    "chap": 20,
+                    "totVers": 15
+                },
+                {
+                    "chap": 21,
+                    "totVers": 27
+                },
+                {
+                    "chap": 22,
+                    "totVers": 21
+                }
+            ]
+        }
+    ]
+}

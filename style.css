@@ -9,17 +9,6 @@ body {
     background: -moz-linear-gradient(bottom, #047ae9, #6aaae6);
 }
 
-hr {
-    margin: 3px 0px;
-}
-
-img,
-footer {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-}
-
 header {
     position: fixed;
     display: inline-block;
@@ -34,6 +23,17 @@ header a {
     text-decoration: none;
     text-align: center;
     font-style: oblique;
+}
+
+hr {
+    margin: 3px 0px;
+}
+
+img,
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 .menu {
