@@ -15,34 +15,22 @@ imgPro.onload = () => { btnEscPro.style.display = "block"; }
 /*Requisita versículo da API aleatoriamente*/
 let verse = document.getElementById("verso");
 let verseRef = document.getElementById("versoRef");
-let mapBibleFont = getRandom(2) == 0 ? "mapBibleAT.min.json" : "mapBibleNT.min.json";
+const versions = ['nvi', 'acf'];
+const version = getRandom(2) == 0 ? versions[0] : versions[1];
 ajax({
-    url: mapBibleFont,
+    url: `https://www.abibliadigital.com.br/api/verses/${version}/random`,
     method: "get",
     success(response) {
-        const mapBible = JSON.parse(response)
-        const randomBooks = getRandom(mapBible.books.length);
-        const randomChapter = getRandom(mapBible.books[randomBooks].chaptersVerses.length);
-        const randomVerse = getRandom(mapBible.books[randomBooks].chaptersVerses[randomChapter].totVers);
-        const abb = mapBible.books[randomBooks].abbrev;
-        const cha = mapBible.books[randomBooks].chaptersVerses[randomChapter].chap;
-        const ver = randomVerse > 0 ? randomVerse : 1;
-        ajax({
-            url: `https://www.abibliadigital.com.br/api/verses/nvi/${abb}/${cha}/${ver}`,
-            method: "get",
-            success(response) {
-                try {
-                    const verseBible = JSON.parse(response)
-                    verse.innerHTML = verseBible.text
-                    verseRef.innerHTML = `${verseBible.book.name} ${verseBible.chapter}:${verseBible.number} (${verseBible.book.version})`
-                } catch (e) {
-                    errorVerse(e)
-                }
-            },
-            erro(e) {
-                errorVerse(e)
-            }
-        })
+        try {
+            const verseBible = JSON.parse(response)
+            verse.innerHTML = verseBible.text
+            verseRef.innerHTML = `${verseBible.book.name} ${verseBible.chapter}:${verseBible.number} (${verseBible.book.version})`
+        } catch (e) {
+            errorVerse(e)
+        }
+    },
+    erro(e) {
+        errorVerse(e)
     }
 })
 
@@ -54,20 +42,20 @@ function getRandom(numberMax) {
 /*Erro se houver*/
 function errorVerse(e) {
     verse.innerHTML = "Desculpe, não foi possível mostrar o versículo!"
-    verseRef.innerHTML = ""
+    verseRef.innerHTML = e.status === undefined ? `${e}` : `${e.status} - ${e.statusText}`
 }
 
 /*Requisição da API e do arquivo JSON*/
 function ajax(config) {
     const xhr = new XMLHttpRequest()
-    xhr.open("GET", config.url, true)
+    xhr.open(config.method, config.url, true)
     xhr.onload = e => {
         if (xhr.status === 200) {
             config.success(xhr.response)
         } else if (xhr.status >= 400) {
             config.erro({
-                code: xhr.status,
-                text: xhr.statusText
+                status: xhr.status,
+                statusText: xhr.statusText
             })
         }
     }
