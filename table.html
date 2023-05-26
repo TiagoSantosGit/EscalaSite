@@ -5,353 +5,19 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="logo.png" />
-    <!--
-      <link rel="stylesheet" href="style.css" />
-  -->
+    <link rel="stylesheet" href="style1.css" />
     <title>Escala Obreiros (nova)</title>
 </head>
-<style>
-    * {
-        font-size: 1rem;
-        box-sizing: border-box;
-    }
-
-    body {
-        margin: 0;
-        background: -webkit-gradient(linear, left top, left bottom, from(#047ae9), to(#6aaae6));
-        background: -moz-linear-gradient(bottom, #047ae9, #6aaae6);
-    }
-
-    header {
-        position: fixed;
-        display: inline-block;
-        width: 100%;
-        background: #0460aa;
-        border-bottom: 3px solid #f1670b;
-        height: 40px;
-        box-sizing: content-box;
-    }
-
-    header a {
-        text-decoration: none;
-        text-align: center;
-        font-style: oblique;
-    }
-
-    hr {
-        margin: 3px 0px;
-    }
-
-    .table-align,
-    footer {
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-    }
-
-    .menu {
-        display: inline-block;
-        vertical-align: baseline;
-        padding: 9px;
-    }
-
-    p {
-        margin: 3px;
-    }
-
-    h2 {
-        margin: 3px;
-    }
-
-    .postos {
-        display: inline-block;
-        vertical-align: baseline;
-        padding: 3px 5px;
-    }
-
-    .postos a {
-        text-decoration: none;
-        color: #d8d8d8;
-        background-color: #4faddb;
-        border-radius: 5px 5px 0px 0px;
-        border-bottom: 2px solid;
-        border-color: #000000;
-        padding: 2px;
-    }
-
-    .menu ul {
-        margin: 0;
-        padding: 0;
-    }
-
-    .menu li {
-        display: inline-block;
-    }
-
-    .menu a {
-        background-color: #4faddb;
-        color: #d8d8d8;
-        border-radius: 5px 5px 0px 0px;
-        border-bottom: 4px solid #000000;
-        padding: 3px;
-    }
-
-    .logo {
-        display: inline-block;
-        color: #d8d8d8;
-        text-align: center;
-        vertical-align: middle;
-        font-style: oblique;
-        padding-left: 3px;
-        border-bottom: 3px double #f1670b;
-        border-bottom-right-radius: 3px;
-    }
-
-    .content {
-        margin: 0 5px;
-        padding: 0 5px;
-        display: none;
-        overflow: hidden;
-        background-color: #4faddb;
-        border-top-right-radius: 5px;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-    }
-
-    .paddingTop {
-        padding-top: 3px;
-    }
-
-    .corpoEscala {
-        padding-top: 45px;
-    }
-
-    .card {
-        border-radius: 5px;
-        box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-        padding: 6px;
-        margin: 9px 0px;
-        width: inherit;
-        transition: all 0.3s ease-out;
-        background-color: #D79BE1;
-        border-left: 3px solid #f1670b;
-        border-bottom: 1px solid #f1670b;
-    }
-
-    .card p {
-        color: #000;
-        margin: 3px;
-    }
-
-    .row {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .vers {
-        float: right;
-        font-weight: bold;
-    }
-
-    .ico {
-        max-width: 54px;
-        max-height: 54px;
-        border-radius: 40%;
-    }
-
-    .card:hover {
-        transform: translateY(-5px);
-        cursor: pointer;
-    }
-
-    .menu a:hover,
-    .postos a:hover {
-        background-color: #6fb5d8;
-    }
-
-    .table-align {
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0;
-        border-bottom: 5px double #f1670b;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-        height: 7px;
-    }
-
-    table {
-        border-spacing: 0;
-        padding: 0 3px;
-    }
-
-    thead tr th {
-        color: #fff;
-        background-color: #7030A0;
-        border: 0;
-        border-top: 1px;
-        border-bottom: 1px;
-        border-left: 1px;
-        border-color: #000;
-        border-style: solid;
-        padding: 0px 2px;
-        font-weight: bold;
-    }
-
-    .style-cell {
-        color: #000;
-        font-size: 1rem;
-        text-align: center;
-        border: 0;
-        border-left: 1px;
-        border-bottom: 1px;
-        border-color: #000;
-        border-style: solid;
-        padding: 0px 2px;
-        /* white-space: nowrap; */
-    }
-
-    .border-top-bottom {
-        border-top: 1px;
-        border-bottom: 1px;
-        border-top-color: #f1670b;
-        border-bottom-color: #f1670b;
-        border-style: solid;
-        /*box-shadow: #8b80f9 0px 0px 2px 1px inset,
-            #8b80f9 0px 0px 2px 1px;*/
-    }
-
-    .border-right {
-        border-right: 1px solid #f1670b;
-    }
-
-    .text-day {
-        font-weight: bold;
-    }
-
-    .text-day:nth-child(1) {
-        border-left: 5px solid red;
-        box-shadow: inset 1px 0 2px blue;
-    }
-
-    .no-break-text {
-        white-space: nowrap;
-    }
-
-    tr:nth-child(odd) {
-        background-color: #E7C7E5;
-    }
-
-    tr:nth-child(even) {
-        background-color: #D79BE1;
-    }
-
-    thead tr th:nth-child(1) {
-        color: #AD75B3;
-        background-color: #400145;
-    }
-
-    tbody tr td:nth-child(1) {
-        color: #fff;
-        background-color: #7030A0;
-    }
-
-    tbody tr:hover {
-        background-color: #815b9f;
-    }
-
-    #btnEscPro {
-        display: none;
-        background-color: #f1670b;
-    }
-
-    #contentPosto {
-        display: none;
-        padding-bottom: 2px;
-        border-bottom: 2px groove #f1670b;
-        margin-bottom: 3px;
-    }
-
-    #escAtu {
-        display: block;
-        animation: 500ms linear 500ms piscar;
-    }
-
-    #escPro {
-        display: none;
-        animation: 500ms linear 500ms piscar;
-    }
-
-    @keyframes piscar {
-        from {
-            opacity: 0.7;
-        }
-
-        to {
-            opacity: 1.0;
-        }
-    }
-
-    @media (max-width: 587px) {
-        .text-sm {
-            font-size: 0.8rem;
-        }
-
-        .ico {
-            max-width: 34px;
-            max-height: 34px;
-        }
-
-        .table-align,
-        footer {
-            width: 99%;
-        }
-    }
-
-    @media (max-width: 540px) {
-
-        .style-cell,
-        #mesAno,
-        .no-break-text {
-            font-size: 0.8rem;
-        }
-    }
-
-    @media (max-width: 490px) {
-        .text-sm {
-            font-size: 0.5rem;
-        }
-
-        .ico {
-            max-width: 24px;
-            max-height: 24px;
-        }
-    }
-
-    @media (max-width: 370px) {
-        .text-sm {
-            font-size: 0.3rem;
-        }
-
-        .ico {
-            max-width: 20px;
-            max-height: 20px;
-        }
-    }
-</style>
 
 <body>
-    <header>
+    <header class="headerMain">
         <div class="logo">
             <span class="text-sm">Escala Obreiros Setor 7</span>
         </div>
         <nav class="menu">
             <ul>
                 <li>
-                    <a href="#" class="text-sm" onclick="javascript:postoContent(null,'contentPosto');">Opções</a>
-                </li>
-                <li>
-                    <a href="#" class="text-sm" onclick="javascript:trocaEsc();" id="btnEscPro">Escala próximo mês</a>
+                    <a href="#" class="text-sm" onclick="javascript:postoContent(this,'contentPosto');">Opções</a>
                 </li>
             </ul>
         </nav>
@@ -359,19 +25,19 @@
     <div class="corpoEscala">
         <div id="contentPosto">
             <div class="postos">
-                <a href="#" class="text-sm" onclick="javascript:postoContent(this,'ponto1');">Ponto 1</a>
-                <a href="#" class="text-sm" onclick="javascript:postoContent(this,'ponto2');">Ponto 2</a>
-                <a href="#" class="text-sm" onclick="javascript:postoContent(this,'ponto3');">Ponto 3</a>
-                <a href="#" class="text-sm" onclick="javascript:postoContent(this,'oferta');">Oferta</a>
-                <a href="#" class="text-sm" onclick="javascript:alert('Não possui avisos!');">Avisos</a>
+                <a href="#" class="text-sm borderColor" onclick="javascript:postoContent(this,'ponto1');">Ponto 1</a>
+                <a href="#" class="text-sm borderColor" onclick="javascript:postoContent(this,'ponto2');">Ponto 2</a>
+                <a href="#" class="text-sm borderColor" onclick="javascript:postoContent(this,'ponto3');">Ponto 3</a>
+                <a href="#" class="text-sm borderColor" onclick="javascript:postoContent(this,'oferta');">Oferta</a>
+                <a href="#" class="text-sm borderColor" onclick="javascript:alert('Não possui avisos!');">Avisos</a>
             </div>
             <div id="ponto1" class="content">
-                <p class="text-sm">Auxilia o pastor e obreiros de púlpito com avisos e informações necessárias.</p>
+                <p class="text-sm">Auxilia o pastor e obreiros de púlpito com avisos e informações necessárias e apoio
+                    para o grupo de irmãs na hora do louvor com o microfone suporte partitura e base para regente.</p>
             </div>
             <div id="ponto2" class="content">
-                <p class="text-sm">Mocidade, pega a salva de contribuição, recolhe contribuições e água para quem
-                    entregar a
-                    palavra.</p>
+                <p class="text-sm">Apoio a mocidade (microfone e base para regente), pega a salva de contribuição e água
+                    para o pregador ou preletor.</p>
             </div>
             <div id="ponto3" class="content">
                 <p class="text-sm">Recepção dos irmãos e visitantes, favor chegar 15 minutos antes do início do culto.
@@ -381,8 +47,8 @@
                 <p class="text-sm">Recolhe contribuições e dízimos com a salva, sempre em duplas.</p>
             </div>
         </div>
-        <div id="escalaImagem">
-            <table class="table-align">
+        <section class="headerClone">
+            <table class="table-align table-none-border">
                 <colgroup>
                     <col width="12%">
                     <col width="18%">
@@ -392,140 +58,42 @@
                 </colgroup>
                 <thead>
                     <tr>
-                        <th id="mesAno">Novembro 2022</th>
+                        <th class="mesAno no-break-text">Dia de culto</th>
                         <th><span class="no-break-text">Ponto 1</span></th>
-                        <th><span class="no-break-text">Ponto 2</span></th>
-                        <th><span class="no-break-text">Ponto 3</span></th>
-                        <th><span>Oferta</span></th>
+                        <th class="style-hidden"><span class="no-break-text">Ponto 2</span></th>
+                        <th class="style-hidden"><span class="no-break-text">Ponto 3</span></th>
+                        <th class="style-hidden style-border-right"><span>Oferta</span></th>
                     </tr>
                 </thead>
-                <tbody>
+            </table>
+        </section>
+        <div>
+            <table class="table-align table-align-bottom">
+                <colgroup>
+                    <col width="12%">
+                    <col width="18%">
+                    <col width="18%">
+                    <col width="18%">
+                    <col width="34%">
+                </colgroup>
+                <thead>
                     <tr>
-                        <td class="style-cell">12/11 Sábado</td>
-                        <td class="style-cell"><span class="no-break-text">Tiago Santos</span> - <span
-                                class="no-break-text">Ronaldo Moital</span></td>
-                        <td class="style-cell"><span class="no-break-text">Isaias Pereira</span> - <span
-                                class="no-break-text">Eduardo Campos</span></td>
-                        <td class="style-cell"><span class="no-break-text">Luiz Silva</span> - <span
-                                class="no-break-text">Fabio
-                                Ferreira</span></td>
-                        <td class="style-cell"><span class="no-break-text">Isaias Pereira</span> - <span
-                                class="no-break-text">Eduardo Campos</span> - <span class="no-break-text">Izaias
-                                Santos</span> - <span class="no-break-text">Ronaldo Martins</span></td>
+                        <th class="mesAno no-break-text">Dia de culto</th>
+                        <th><span class="no-break-text">Ponto 1</span>
+                        </th>
+                        <th><span class="no-break-text">Ponto 2</span>
+                        </th>
+                        <th><span class="no-break-text">Ponto 3</span>
+                        </th>
+                        <th><span>Oferta</span>
+                        </th>
                     </tr>
-                    <tr>
-                        <td class="style-cell">12/11 Sábado</td>
-                        <td class="style-cell"><span class="no-break-text">Tiago Santos</span> - <span
-                                class="no-break-text">Ronaldo Moital</span></td>
-                        <td class="style-cell"><span class="no-break-text">Isaias Pereira</span> - <span
-                                class="no-break-text">Eduardo Campos</span></td>
-                        <td class="style-cell"><span class="no-break-text">Luiz Silva</span> - <span
-                                class="no-break-text">Fabio
-                                Ferreira</span></td>
-                        <td class="style-cell"><span class="no-break-text">Isaias Pereira</span> - <span
-                                class="no-break-text">Eduardo Campos</span> - <span class="no-break-text">Izaias
-                                Santos</span> - <span class="no-break-text">Ronaldo Martins</span></td>
+                </thead>
+                <tbody id="linhasEscala">
+                    <tr id="colunaStatus">
+                        <td id="linhaStatus" class="style-cell style-border-right" colspan="5">Aguarde carregando...
+                        </td>
                     </tr>
-                    <tr>
-                        <td class="style-cell">12/11 Sábado</td>
-                        <td class="style-cell"><span class="no-break-text">Tiago Santos</span> - <span
-                                class="no-break-text">Ronaldo Moital</span></td>
-                        <td class="style-cell"><span class="no-break-text">Isaias Pereira</span> - <span
-                                class="no-break-text">Eduardo Campos</span></td>
-                        <td class="style-cell"><span class="no-break-text">Luiz Silva</span> - <span
-                                class="no-break-text">Fabio
-                                Ferreira</span></td>
-                        <td class="style-cell"><span class="no-break-text">Isaias Pereira</span> - <span
-                                class="no-break-text">Eduardo Campos</span> - <span class="no-break-text">Izaias
-                                Santos</span> - <span class="no-break-text">Ronaldo Martins</span></td>
-                    </tr>
-                    <tr>
-                        <td class="style-cell text-day border-top-bottom">12/11 Sábado</td>
-                        <td class="style-cell text-day border-top-bottom"><span class="no-break-text">Tiago
-                                Santos</span> - <span class="no-break-text">Ronaldo Moital</span></td>
-                        <td class="style-cell text-day border-top-bottom"><span class="no-break-text">Isaias
-                                Pereira</span> - <span class="no-break-text">Eduardo Campos</span></td>
-                        <td class="style-cell text-day border-top-bottom"><span class="no-break-text">Luiz Silva</span>
-                            - <span class="no-break-text">Fabio Ferreira</span></td>
-                        <td class="style-cell text-day border-top-bottom border-right"><span
-                                class="no-break-text">Isaias Pereira</span> - <span class="no-break-text">Eduardo
-                                Campos</span> - <span class="no-break-text">Izaias
-                                Santos</span> - <span class="no-break-text">Ronaldo Martins</span></td>
-                    </tr>
-                    <tr>
-                        <td class="style-cell">12/11 Sábado</td>
-                        <td class="style-cell"><span class="no-break-text">Tiago Santos</span> - <span
-                                class="no-break-text">Ronaldo Moital</span></td>
-                        <td class="style-cell"><span class="no-break-text">Isaias Pereira</span> - <span
-                                class="no-break-text">Eduardo Campos</span></td>
-                        <td class="style-cell"><span class="no-break-text">Luiz Silva</span> - <span
-                                class="no-break-text">Fabio
-                                Ferreira</span></td>
-                        <td class="style-cell"><span class="no-break-text">Isaias Pereira</span> - <span
-                                class="no-break-text">Eduardo Campos</span> - <span class="no-break-text">Izaias
-                                Santos</span> - <span class="no-break-text">Ronaldo Martins</span></td>
-                    </tr>
-                    <tr>
-                        <td class="style-cell">16/11 Quarta</td>
-                        <td class="style-cell"><span class="no-break-text">Tiago</span></td>
-                        <td class="style-cell"></td>
-                        <td class="style-cell"><span class="no-break-text">Luiz</span> - <span
-                                class="no-break-text">Fabio</span></td>
-                        <td class="style-cell"><span class="no-break-text">Aline</span> - <span
-                                class="no-break-text">Samer</span></td>
-                    </tr>
-                    <tr>
-                        <td class="style-cell">12/11 Sábado</td>
-                        <td class="style-cell"><span class="no-break-text">Tiago Santos</span> - <span
-                                class="no-break-text">Ronaldo Moital</span></td>
-                        <td class="style-cell"><span class="no-break-text">Isaias Pereira</span> - <span
-                                class="no-break-text">Eduardo Campos</span></td>
-                        <td class="style-cell"><span class="no-break-text">Luiz Silva</span> - <span
-                                class="no-break-text">Fabio
-                                Ferreira</span></td>
-                        <td class="style-cell"><span class="no-break-text">Isaias Pereira</span> - <span
-                                class="no-break-text">Eduardo Campos</span> - <span class="no-break-text">Izaias
-                                Santos</span> - <span class="no-break-text">Ronaldo Martins</span></td>
-                    </tr>
-                    <tr>
-                        <td class="style-cell">12/11 Sábado</td>
-                        <td class="style-cell"><span class="no-break-text">Tiago</span> - <span
-                                class="no-break-text">Ronaldo</span></td>
-                        <td class="style-cell"><span class="no-break-text">Isaias</span> - <span
-                                class="no-break-text">Eduardo</span></td>
-                        <td class="style-cell"><span class="no-break-text">Paulo</span> - <span
-                                class="no-break-text">Pedro</span></td>
-                        <td class="style-cell"><span class="no-break-text">Isaias</span> - <span
-                                class="no-break-text">Eduardo</span> - <span class="no-break-text">Mary</span> - <span
-                                class="no-break-text">Neia</span></td>
-                    </tr>
-                    <tr>
-                        <td class="style-cell">12/11 Sábado</td>
-                        <td class="style-cell"><span class="no-break-text">Tiago Santos</span> - <span
-                                class="no-break-text">Ronaldo Moital</span></td>
-                        <td class="style-cell"><span class="no-break-text">Isaias Pereira</span> - <span
-                                class="no-break-text">Eduardo Campos</span></td>
-                        <td class="style-cell"><span class="no-break-text">Luiz Silva</span> - <span
-                                class="no-break-text">Fabio
-                                Ferreira</span></td>
-                        <td class="style-cell"><span class="no-break-text">Isaias Pereira</span> - <span
-                                class="no-break-text">Eduardo Campos</span> - <span class="no-break-text">Izaias
-                                Santos</span> - <span class="no-break-text">Ronaldo Martins</span></td>
-                    </tr>
-                    <tr>
-                        <td class="style-cell">12/11 Sábado</td>
-                        <td class="style-cell"><span class="no-break-text">Tiago Santos</span> - <span
-                                class="no-break-text">Ronaldo Moital</span></td>
-                        <td class="style-cell"><span class="no-break-text">Isaias Pereira</span> - <span
-                                class="no-break-text">Eduardo Campos</span></td>
-                        <td class="style-cell"><span class="no-break-text">Luiz Silva</span> - <span
-                                class="no-break-text">Fabio
-                                Ferreira</span></td>
-                        <td class="style-cell"><span class="no-break-text">Isaias Pereira</span> - <span
-                                class="no-break-text">Eduardo Campos</span> - <span class="no-break-text">Izaias
-                                Santos</span> - <span class="no-break-text">Ronaldo Martins</span></td>
-                    </tr>
-
                 </tbody>
             </table>
         </div>
@@ -543,117 +111,6 @@
             </div>
     </footer>
 </body>
-<!--
-    <script type="text/javascript" src="script.js"></script>
--->
-
-<script>
-    var largura = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    var altura = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-    console.log(`Tamanho da tela/browser: ${largura}X${altura} as ${new Date()}`)
-
-    const btnEscPro = document.getElementById("btnEscPro");
-    let data = new Date();
-    let mes = data.getMonth() + 1;
-    let ano = data.getFullYear() - 2000;
-    mes++;
-    if (mes == 13) { mes = 1; ano++; }
-    /*Requisita versículo da API aleatoriamente*/
-    let verse = document.getElementById("verso");
-    let verseRef = document.getElementById("versoRef");
-    const versions = ['nvi', 'acf'];
-    const version = getRandom(2) == 0 ? versions[0] : versions[1];
-    ajax({
-        url: `https://www.abibliadigital.com.br/api/verses/${version}/random`,
-        method: "get",
-        success(response) {
-            try {
-                const verseBible = JSON.parse(response)
-                verse.innerHTML = verseBible.text
-                verseRef.innerHTML = `${verseBible.book.name} ${verseBible.chapter}:${verseBible.number} (${verseBible.book.version})`
-            } catch (e) {
-                errorVerse(e)
-            }
-        },
-        erro(e) {
-            errorVerse(e)
-        }
-    })
-
-    /*Gera número aleatório*/
-    function getRandom(numberMax) {
-        return Math.floor(Math.random() * numberMax);
-    }
-
-    /*Erro se houver*/
-    function errorVerse(e) {
-        verse.innerHTML = "Desculpe, não foi possível mostrar o versículo!"
-        verseRef.innerHTML = e.status === undefined ? `${e}` : `${e.status} - ${e.statusText}`
-    }
-
-    /*Requisição da API e do arquivo JSON*/
-    function ajax(config) {
-        const xhr = new XMLHttpRequest()
-        xhr.open(config.method, config.url, true)
-        xhr.onload = e => {
-            if (xhr.status === 200) {
-                config.success(xhr.response)
-            } else if (xhr.status >= 400) {
-                config.erro({
-                    status: xhr.status,
-                    statusText: xhr.statusText
-                })
-            }
-        }
-        xhr.send()
-    }
-
-    /*Mostra conteúdo de cada posto*/
-    function postoContent(element, elementId) {
-        const divContent = document.getElementById(elementId);
-        if (divContent.style.display == "block") {
-            divContent.style.display = "none";
-            if (element != null) {
-                element.style.borderBottomColor = "#000000";
-            }
-        } else {
-            this.noneContentPosto();
-            divContent.style.display = "block";
-            if (element != null) {
-                element.style.borderBottomColor = "#ffffff";
-            }
-        }
-    }
-
-    /*Oculta todas as tags com a classe content*/
-    function noneContentPosto() {
-        const contentClass = document.getElementsByClassName("content");
-        const borderColorClass = document.getElementsByClassName("borderColor");
-        var i;
-        for (i = 0; i < contentClass.length; i++) {
-            contentClass[i].style.display = "none";
-        }
-        for (i = 0; i < borderColorClass.length; i++) {
-            borderColorClass[i].style.borderBottomColor = "#000000";
-        }
-    }
-
-    /*Intercala escala mês atual e próximo mês*/
-    function trocaEsc() {
-        const escAtu = document.getElementById("escAtu");
-        const escPro = document.getElementById("escPro");
-        if (escAtu.style.display == "none") {
-            btnEscPro.innerHTML = "Escala próximo mês"
-            btnEscPro.style.backgroundColor = '#f1670b';
-            escPro.style.display = "none";
-            escAtu.style.display = "block";
-        } else {
-            btnEscPro.innerHTML = "Escala mês atual"
-            btnEscPro.style.backgroundColor = '#089750';
-            escAtu.style.display = "none";
-            escPro.style.display = "block";
-        }
-    }
-</script>
+<script type="text/javascript" src="script1.js"></script>
 
 </html>
