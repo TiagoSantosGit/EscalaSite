@@ -5,31 +5,41 @@
 
 body {
     margin: 0;
+    font-family: sans-serif, Arial;
     background: -webkit-gradient(linear, left top, left bottom, from(#047ae9), to(#6aaae6));
     background: -moz-linear-gradient(bottom, #047ae9, #6aaae6);
 }
 
-header {
+.headerMain {
     position: fixed;
     display: inline-block;
     width: 100%;
     background: #0460aa;
     border-bottom: 3px solid #f1670b;
-    height: 40px;
+    height: 35px;
     box-sizing: content-box;
 }
 
-header a {
+.headerMain a {
     text-decoration: none;
     text-align: center;
     font-style: oblique;
+}
+
+.headerClone {
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    box-sizing: content-box;
+    position: fixed;
 }
 
 hr {
     margin: 3px 0px;
 }
 
-img,
+.table-align,
 footer {
     margin-left: auto;
     margin-right: auto;
@@ -44,14 +54,6 @@ footer {
 
 p {
     margin: 3px;
-}
-
-footer {
-    background-color: inherit;
-    border-bottom: 5px double #f1670b;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    height: 7px;
 }
 
 h2 {
@@ -83,30 +85,13 @@ h2 {
     display: inline-block;
 }
 
-.menu a,
-.login a {
+.menu a {
     background-color: #4faddb;
     color: #d8d8d8;
     border-radius: 5px 5px 0px 0px;
-    border-bottom: 4px solid #000000;
+    border-bottom: 4px solid;
+    border-color: #000000;
     padding: 3px;
-}
-
-.login a {
-    border-bottom: 4px solid #f1670b;
-    border-right: 4px solid #f1670b;
-    border-radius: 5px;
-}
-
-.login {
-    float: right;
-    padding: 5px;
-    margin: 5px;
-}
-
-.login a {
-    text-decoration: none;
-    color: #d8d8d8;
 }
 
 .logo {
@@ -129,10 +114,6 @@ h2 {
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-}
-
-.paddingTop {
-    padding-top: 3px;
 }
 
 .corpoEscala {
@@ -179,18 +160,106 @@ h2 {
 }
 
 .menu a:hover,
-.login a:hover,
 .postos a:hover {
     background-color: #6fb5d8;
 }
 
-.login a:active {
-    border: 0;
+.table-align {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
 }
 
-#btnEscPro {
-    display: none;
-    background-color: #f1670b;
+.table-align-bottom {
+    border-bottom: 5px double #f1670b;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 7px;
+}
+
+table {
+    border-spacing: 0;
+    padding: 0 3px;
+}
+
+thead tr th {
+    color: #fff;
+    background-color: #7030A0;
+    border: 0;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-color: #000;
+    border-style: solid;
+    padding: 0px 2px;
+    font-weight: bold;
+}
+
+.style-cell {
+    color: #000;
+    font-size: 1rem;
+    text-align: center;
+    border: 0;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-color: #000;
+    border-style: solid;
+    padding: 5px 1px 5px 1px;
+}
+
+.style-border-right {
+    border-right: 1px solid #000000;
+}
+
+.mesAno {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.style-hidden {
+    border-left-style: hidden;
+}
+
+.text-day {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    box-shadow: #fff 0px 0px 3px 1px inset;
+}
+
+.no-break-text {
+    white-space: nowrap;
+}
+
+.cultoCeia {
+    color: #000000;
+    background-color: #F4B79E;
+}
+
+.cultoCeia:nth-child(1) {
+    color: #ffffff;
+    background-color: red;
+}
+
+tr:nth-child(odd) {
+    background-color: #E7C7E5;
+}
+
+tr:nth-child(even) {
+    background-color: #D79BE1;
+}
+
+thead tr th:nth-child(1) {
+    color: #AD75B3;
+    background-color: #400145;
+}
+
+tbody tr td:nth-child(1) {
+    color: #fff;
+    background-color: #7030A0;
+}
+
+tbody tr:hover {
+    background-color: #a181b9;
 }
 
 #contentPosto {
@@ -200,27 +269,7 @@ h2 {
     margin-bottom: 3px;
 }
 
-#escAtu {
-    display: block;
-    animation: 500ms linear 500ms piscar;
-}
-
-#escPro {
-    display: none;
-    animation: 500ms linear 500ms piscar;
-}
-
-@keyframes piscar {
-    from {
-        opacity: 0.7;
-    }
-
-    to {
-        opacity: 1.0;
-    }
-}
-
-@media (max-width: 587px) {
+@media (max-width: 750px) {
     .text-sm {
         font-size: 0.8rem;
     }
@@ -230,9 +279,18 @@ h2 {
         max-height: 34px;
     }
 
-    div img,
-    body footer {
+    .table-align,
+    footer {
         width: 99%;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .style-cell,
+    .mesAno,
+    .no-break-text {
+        font-size: 0.8rem;
     }
 }
 

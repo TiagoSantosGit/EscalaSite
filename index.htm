@@ -10,52 +10,76 @@
 </head>
 
 <body>
-  <header>
+  <header class="headerMain">
     <div class="logo">
       <span class="text-sm">Escala Obreiros Setor 7</span>
     </div>
     <nav class="menu">
       <ul>
         <li>
-          <a href="#" class="text-sm" onclick="javascript:postoContent(null,'contentPosto');">Descrição dos postos</a>
-        </li>
-        <li>
-          <a href="#" class="text-sm" onclick="javascript:alert('Não possui avisos!');">Avisos</a>
-        </li>
-        <li>
-          <a href="#" class="text-sm" onclick="javascript:trocaEsc();" id="btnEscPro">Escala próximo mês</a>
+          <a href="#" class="text-sm" onclick="javascript:postoContent(this,'contentPosto');">Opções</a>
         </li>
       </ul>
     </nav>
-    <aside class="login">
-      <a href="#" class="text-sm" onclick="javascript:alert('Funcionalidade indisponível!')">Login</a>
-    </aside>
   </header>
   <div class="corpoEscala">
     <div id="contentPosto">
       <div class="postos">
-        <a href="#" class="text-sm" onclick="javascript:postoContent(this,'ponto1');">Ponto 1</a>
-        <a href="#" class="text-sm" onclick="javascript:postoContent(this,'ponto2');">Ponto 2</a>
-        <a href="#" class="text-sm" onclick="javascript:postoContent(this,'ponto3');">Ponto 3</a>
-        <a href="#" class="text-sm" onclick="javascript:postoContent(this,'oferta');">Oferta</a>
+        <a href="#" class="text-sm borderColor" onclick="javascript:postoContent(this,'ponto1');">Ponto 1</a>
+        <a href="#" class="text-sm borderColor" onclick="javascript:postoContent(this,'ponto2');">Ponto 2</a>
+        <a href="#" class="text-sm borderColor" onclick="javascript:postoContent(this,'ponto3');">Ponto 3</a>
+        <a href="#" class="text-sm borderColor" onclick="javascript:postoContent(this,'oferta');">Oferta</a>
+        <a href="#" class="text-sm borderColor"
+          onclick="javascript:alert('Consulte a escala antes do culto e se não puder comparecer avise com antecedência, Deus abençoe!');">Aviso</a>
       </div>
       <div id="ponto1" class="content">
-        <p class="text-sm">Auxilia o pastor e obreiros de púlpito com avisos e informações necessárias.</p>
+        <p class="text-sm">Auxilia o pastor e obreiros de púlpito com avisos e informações necessárias e apoio
+          para o grupo de irmãs na hora do louvor com o microfone suporte partitura e base para regente.</p>
       </div>
       <div id="ponto2" class="content">
-        <p class="text-sm">Mocidade, pega a salva de contribuição, recolhe contribuições e água para quem entregar a
-          palavra.</p>
+        <p class="text-sm">Apoio a mocidade (microfone e base para regente), pega a salva de contribuição e água
+          para o pregador ou preletor.</p>
       </div>
       <div id="ponto3" class="content">
-        <p class="text-sm">Recepção dos irmãos e visitantes, favor chegar 15 minutos antes do início do culto.</p>
+        <p class="text-sm">Recepção dos irmãos e visitantes, favor chegar 15 minutos antes do início do culto.
+        </p>
       </div>
       <div id="oferta" class="content">
         <p class="text-sm">Recolhe contribuições e dízimos com a salva, sempre em duplas.</p>
       </div>
     </div>
-    <div id="escalaImagem">
-      <img id="escAtu" src="#" alt="Escala Atual">
-      <img id="escPro" src="#" alt="Escala Proxima">
+    <div>
+    <section class="headerClone">
+      <table id='cabFloat' class="table-align table-none-border"></table>
+    </section>
+      <table class="table-align table-align-bottom">
+        <colgroup id="cabFixed1">
+          <col width="12%">
+          <col width="18%">
+          <col width="18%">
+          <col width="18%">
+          <col width="34%">
+        </colgroup>
+        <thead id="cabFixed2">
+          <tr>
+            <th class="mesAno no-break-text">Dia de culto</th>
+            <th><span class="no-break-text">Ponto 1</span>
+            </th>
+            <th><span class="no-break-text">Ponto 2</span>
+            </th>
+            <th><span class="no-break-text">Ponto 3</span>
+            </th>
+            <th><span>Oferta</span>
+            </th>
+          </tr>
+        </thead>
+        <tbody id="linhasEscala">
+          <tr id="colunaStatus">
+            <td id="linhaStatus" class="style-cell style-border-right" colspan="5">Aguarde carregando...
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
   <footer>
