@@ -1,35 +1,5 @@
 [
   {
-    "dataHoraId": "2023-09-15T19:30:00",
-    "idCongregacao": 1,
-    "cultoDeSantaCeia": false,
-    "dataHoraCulto": "15/09 sexta 19:30",
-    "obreiroPonto1": "Fabio",
-    "obreiroPonto2": "-",
-    "obreiroPonto3": "Samer - Isaias Manoel",
-    "obreiroOferta": "Alanês - Hudson"
-  },
-  {
-    "dataHoraId": "2023-09-16T19:30:00",
-    "idCongregacao": 1,
-    "cultoDeSantaCeia": false,
-    "dataHoraCulto": "16/09 sábado 19:30",
-    "obreiroPonto1": "Isaac",
-    "obreiroPonto2": "Isaias Manoel - Edivan",
-    "obreiroPonto3": "Éder - Tiago",
-    "obreiroOferta": "Edivan - Isaias Manoel - Lucimar - Aline"
-  },
-  {
-    "dataHoraId": "2023-09-17T18:30:00",
-    "idCongregacao": 1,
-    "cultoDeSantaCeia": false,
-    "dataHoraCulto": "17/09 domingo 18:30",
-    "obreiroPonto1": "Isaias Pereira - Tiago",
-    "obreiroPonto2": "Éder - Ronaldo Moital",
-    "obreiroPonto3": "Izaias Santos - Samer",
-    "obreiroOferta": "Gisele - Éder - Ronaldo Moital - Mary"
-  },
-  {
     "dataHoraId": "2023-09-20T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
@@ -47,17 +17,17 @@
     "obreiroPonto1": "Izaias Santos",
     "obreiroPonto2": "-",
     "obreiroPonto3": "Ronaldo Martins - Lucas",
-    "obreiroOferta": "Éder - Isaac"
+    "obreiroOferta": "Isaac - Éder"
   },
   {
     "dataHoraId": "2023-09-24T18:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "24/09 domingo 18:30",
-    "obreiroPonto1": "Ronaldo Moital - Isaias Pereira",
-    "obreiroPonto2": "Alanês - Tiago",
-    "obreiroPonto3": "Fabio - Edivan",
-    "obreiroOferta": "Cilene - Tiago - Nathascha - Alanês"
+    "obreiroPonto1": "Isaias Pereira - Ronaldo Moital",
+    "obreiroPonto2": "Tiago - Alanês",
+    "obreiroPonto3": "Edivan - Fabio",
+    "obreiroOferta": "Tiago - Alanês - Nathascha - Cilene"
   },
   {
     "dataHoraId": "2023-09-27T19:30:00",
@@ -77,436 +47,436 @@
     "obreiroPonto1": "Isaias Pereira",
     "obreiroPonto2": "-",
     "obreiroPonto3": "Lucas - Éder",
-    "obreiroOferta": "Hudson - Isaias Manoel"
+    "obreiroOferta": "Isaias Manoel - Hudson"
   },
   {
     "dataHoraId": "2023-10-01T10:00:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": true,
     "dataHoraCulto": "01/10 domingo 10:00",
-    "obreiroPonto1": "Hudson - Samer",
-    "obreiroPonto2": "Izaias Santos - Luiz",
-    "obreiroPonto3": "Alanês - Edivan",
-    "obreiroOferta": "Ronaldo Martins - Cilene - Izaias Santos - Luiz"
+    "obreiroPonto1": "Gisele - Lucimar",
+    "obreiroPonto2": "Éder - Alanês",
+    "obreiroPonto3": "Isaias Pereira - Isaias Manoel",
+    "obreiroOferta": "Éder - Alanês - Samer - Mary"
   },
   {
     "dataHoraId": "2023-10-01T18:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "01/10 domingo 18:30",
-    "obreiroPonto1": "Lucas - Ronaldo Moital",
-    "obreiroPonto2": "Isaias Manoel - Éder",
-    "obreiroPonto3": "Isaias Pereira - Tiago",
-    "obreiroOferta": "Lucimar - Janice - Isaias Manoel - Éder"
+    "obreiroPonto1": "Nathascha - Janice",
+    "obreiroPonto2": "Hudson - Ronaldo Martins",
+    "obreiroPonto3": "Tiago - Fabio",
+    "obreiroOferta": "Hudson - Ronaldo Martins - Izaias Santos - Edivan"
   },
   {
     "dataHoraId": "2023-10-04T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "04/10 quarta 19:30",
-    "obreiroPonto1": "Fabio",
+    "obreiroPonto1": "Cilene",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Hudson - Edivan",
-    "obreiroOferta": "Luiz - Samer"
+    "obreiroPonto3": "Lucas - Luiz",
+    "obreiroOferta": "Aline - Ronaldo Moital"
   },
   {
     "dataHoraId": "2023-10-06T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "06/10 sexta 19:30",
-    "obreiroPonto1": "Isaias Pereira",
+    "obreiroPonto1": "Mary",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Alanês - Fabio",
-    "obreiroOferta": "Lucas - Ronaldo Moital"
+    "obreiroPonto3": "Ronaldo Moital - Fabio",
+    "obreiroOferta": "Cilene - Aline"
   },
   {
     "dataHoraId": "2023-10-08T18:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "08/10 domingo 18:30",
-    "obreiroPonto1": "Isaias Manoel - Ronaldo Martins",
-    "obreiroPonto2": "Éder - Tiago",
-    "obreiroPonto3": "Izaias Santos - Edivan",
-    "obreiroOferta": "Tiago - Éder - Aline - Nathascha"
+    "obreiroPonto1": "Lucimar - Nathascha",
+    "obreiroPonto2": "Izaias Santos - Éder",
+    "obreiroPonto3": "Samer - Tiago",
+    "obreiroOferta": "Izaias Santos - Éder - Hudson - Lucas"
   },
   {
     "dataHoraId": "2023-10-11T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "11/10 quarta 19:30",
-    "obreiroPonto1": "Isaias Pereira",
+    "obreiroPonto1": "Janice",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Alanês - Fabio",
-    "obreiroOferta": "Ronaldo Moital - Éder"
+    "obreiroPonto3": "Isaias Pereira - Luiz",
+    "obreiroOferta": "Ronaldo Martins - Edivan"
   },
   {
     "dataHoraId": "2023-10-13T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "13/10 sexta 19:30",
-    "obreiroPonto1": "Hudson",
+    "obreiroPonto1": "Gisele",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Luiz - Samer",
-    "obreiroOferta": "Ronaldo Martins - Isaias Manoel"
+    "obreiroPonto3": "Alanês - Isaias Manoel",
+    "obreiroOferta": "Mary - Isaias Pereira"
   },
   {
     "dataHoraId": "2023-10-15T18:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "15/10 domingo 18:30",
-    "obreiroPonto1": "Lucas - Izaias Santos",
-    "obreiroPonto2": "Edivan - Tiago",
-    "obreiroPonto3": "Fabio - Samer",
-    "obreiroOferta": "Edivan - Tiago - Gisele - Mary"
+    "obreiroPonto1": "Aline - Cilene",
+    "obreiroPonto2": "Izaias Santos - Éder",
+    "obreiroPonto3": "Fabio - Alanês",
+    "obreiroOferta": "Izaias Santos - Éder - Edivan - Samer"
   },
   {
     "dataHoraId": "2023-10-18T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "18/10 quarta 19:30",
-    "obreiroPonto1": "Isaias Pereira",
+    "obreiroPonto1": "Gisele",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Lucas - Alanês",
-    "obreiroOferta": "Izaias Santos - Éder"
+    "obreiroPonto3": "Tiago - Ronaldo Moital",
+    "obreiroOferta": "Luiz - Ronaldo Martins"
   },
   {
     "dataHoraId": "2023-10-20T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "20/10 sexta 19:30",
-    "obreiroPonto1": "Hudson",
+    "obreiroPonto1": "Janice",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Luiz - Isaias Manoel",
-    "obreiroOferta": "Ronaldo Moital - Ronaldo Martins"
+    "obreiroPonto3": "Hudson - Lucas",
+    "obreiroOferta": "Lucimar - Nathascha"
   },
   {
     "dataHoraId": "2023-10-22T18:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "22/10 domingo 18:30",
-    "obreiroPonto1": "Edivan - Tiago",
-    "obreiroPonto2": "Samer - Éder",
-    "obreiroPonto3": "Luiz - Fabio",
-    "obreiroOferta": "Éder - Samer - Lucimar - Janice"
+    "obreiroPonto1": "Aline - Mary",
+    "obreiroPonto2": "Isaias Manoel - Fabio",
+    "obreiroPonto3": "Alanês - Tiago",
+    "obreiroOferta": "Isaias Manoel - Fabio - Ronaldo Moital - Izaias Santos"
   },
   {
     "dataHoraId": "2023-10-25T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "25/10 quarta 19:30",
-    "obreiroPonto1": "Isaias Pereira",
+    "obreiroPonto1": "Janice",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Lucas - Isaias Manoel",
-    "obreiroOferta": "Izaias Santos - Alanês"
+    "obreiroPonto3": "Éder - Isaias Pereira",
+    "obreiroOferta": "Hudson - Edivan"
   },
   {
     "dataHoraId": "2023-10-27T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "27/10 sexta 19:30",
-    "obreiroPonto1": "Hudson",
+    "obreiroPonto1": "Lucimar",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Moital - Ronaldo Martins",
-    "obreiroOferta": "Edivan - Samer"
+    "obreiroPonto3": "Lucas - Luiz",
+    "obreiroOferta": "Nathascha - Gisele"
   },
   {
     "dataHoraId": "2023-10-29T18:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "29/10 domingo 18:30",
-    "obreiroPonto1": "Tiago - Éder",
-    "obreiroPonto2": "Fabio - Isaias Pereira",
-    "obreiroPonto3": "Isaias Manoel - Lucas",
-    "obreiroOferta": "Fabio - Cilene - Nathascha - Isaias Pereira"
+    "obreiroPonto1": "Cilene - Aline",
+    "obreiroPonto2": "Samer - Isaias Manoel",
+    "obreiroPonto3": "Ronaldo Martins - Isaias Pereira",
+    "obreiroOferta": "Samer - Isaias Manoel - Tiago - Nathascha"
   },
   {
     "dataHoraId": "2023-11-01T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "01/11 quarta 19:30",
-    "obreiroPonto1": "Tiago",
+    "obreiroPonto1": "Mary",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Izaias Santos - Luiz",
-    "obreiroOferta": "Ronaldo Moital - Alanês"
+    "obreiroPonto3": "Samer - Éder",
+    "obreiroOferta": "Hudson - Edivan"
   },
   {
     "dataHoraId": "2023-11-03T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "03/11 sexta 19:30",
-    "obreiroPonto1": "Hudson",
+    "obreiroPonto1": "Cilene",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Martins - Samer",
-    "obreiroOferta": "Éder - Fabio"
+    "obreiroPonto3": "Fabio - Alanês",
+    "obreiroOferta": "Ronaldo Moital - Izaias Santos"
   },
   {
     "dataHoraId": "2023-11-05T10:00:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": true,
     "dataHoraCulto": "05/11 domingo 10:00",
-    "obreiroPonto1": "Edivan - Izaias Santos",
-    "obreiroPonto2": "Isaias Pereira - Lucas",
-    "obreiroPonto3": "Luiz - Tiago",
-    "obreiroOferta": "Isaias Pereira - Lucas - Mary - Aline"
+    "obreiroPonto1": "Gisele - Janice",
+    "obreiroPonto2": "Isaias Manoel - Lucas",
+    "obreiroPonto3": "Luiz - Ronaldo Martins",
+    "obreiroOferta": "Isaias Manoel - Lucas - Lucimar - Izaias Santos"
   },
   {
     "dataHoraId": "2023-11-05T18:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "05/11 domingo 18:30",
-    "obreiroPonto1": "Isaias Manoel - Ronaldo Moital",
-    "obreiroPonto2": "Hudson - Alanês",
-    "obreiroPonto3": "Samer - Ronaldo Martins",
-    "obreiroOferta": "Janice - Gisele - Hudson - Alanês"
+    "obreiroPonto1": "Aline - Nathascha",
+    "obreiroPonto2": "Isaias Pereira - Alanês",
+    "obreiroPonto3": "Tiago - Éder",
+    "obreiroOferta": "Isaias Pereira - Alanês - Hudson - Edivan"
   },
   {
     "dataHoraId": "2023-11-08T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "08/11 quarta 19:30",
-    "obreiroPonto1": "Fabio",
+    "obreiroPonto1": "Gisele",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Éder - Edivan",
-    "obreiroOferta": "Isaias Manoel - Izaias Santos"
+    "obreiroPonto3": "Isaias Manoel - Lucas",
+    "obreiroOferta": "Luiz - Janice"
   },
   {
     "dataHoraId": "2023-11-10T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "10/11 sexta 19:30",
-    "obreiroPonto1": "Isaias Pereira",
+    "obreiroPonto1": "Lucimar",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Luiz - Lucas",
-    "obreiroOferta": "Ronaldo Moital - Alanês"
+    "obreiroPonto3": "Fabio - Ronaldo Moital",
+    "obreiroOferta": "Cilene - Samer"
   },
   {
     "dataHoraId": "2023-11-12T18:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "12/11 domingo 18:30",
-    "obreiroPonto1": "Tiago - Hudson",
-    "obreiroPonto2": "Ronaldo Martins - Samer",
-    "obreiroPonto3": "Fabio - Éder",
-    "obreiroOferta": "Ronaldo Martins - Samer - Lucimar - Nathascha"
+    "obreiroPonto1": "Mary - Aline",
+    "obreiroPonto2": "Ronaldo Martins - Hudson",
+    "obreiroPonto3": "Tiago - Isaias Pereira",
+    "obreiroOferta": "Ronaldo Martins - Hudson - Alanês - Éder"
   },
   {
     "dataHoraId": "2023-11-15T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "15/11 quarta 19:30",
-    "obreiroPonto1": "Edivan",
+    "obreiroPonto1": "Nathascha",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Izaias Santos - Isaias Manoel",
-    "obreiroOferta": "Lucas - Tiago"
+    "obreiroPonto3": "Edivan - Izaias Santos",
+    "obreiroOferta": "Mary - Lucimar"
   },
   {
     "dataHoraId": "2023-11-17T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "17/11 sexta 19:30",
-    "obreiroPonto1": "Isaias Pereira",
+    "obreiroPonto1": "Cilene",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Alanês - Luiz",
-    "obreiroOferta": "Hudson - Ronaldo Moital"
+    "obreiroPonto3": "Isaias Manoel - Luiz",
+    "obreiroOferta": "Janice - Ronaldo Martins"
   },
   {
     "dataHoraId": "2023-11-19T18:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "19/11 domingo 18:30",
-    "obreiroPonto1": "Samer - Ronaldo Martins",
-    "obreiroPonto2": "Edivan - Éder",
-    "obreiroPonto3": "Luiz - Fabio",
-    "obreiroOferta": "Éder - Edivan - Mary - Gisele"
+    "obreiroPonto1": "Gisele - Aline",
+    "obreiroPonto2": "Fabio - Ronaldo Moital",
+    "obreiroPonto3": "Samer - Lucas",
+    "obreiroOferta": "Fabio - Ronaldo Moital - Tiago - Hudson"
   },
   {
     "dataHoraId": "2023-11-22T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "22/11 quarta 19:30",
-    "obreiroPonto1": "Isaias Pereira",
+    "obreiroPonto1": "Janice",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Alanês - Ronaldo Moital",
-    "obreiroOferta": "Izaias Santos - Isaias Manoel"
+    "obreiroPonto3": "Edivan - Isaias Pereira",
+    "obreiroOferta": "Mary - Ronaldo Moital"
   },
   {
     "dataHoraId": "2023-11-24T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "24/11 sexta 19:30",
-    "obreiroPonto1": "Lucas",
+    "obreiroPonto1": "Cilene",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Martins - Hudson",
-    "obreiroOferta": "Samer - Éder"
+    "obreiroPonto3": "Samer - Isaias Manoel",
+    "obreiroOferta": "Nathascha - Izaias Santos"
   },
   {
     "dataHoraId": "2023-11-26T18:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "26/11 domingo 18:30",
-    "obreiroPonto1": "Tiago - Edivan",
-    "obreiroPonto2": "Fabio - Alanês",
-    "obreiroPonto3": "Luiz - Ronaldo Moital",
-    "obreiroOferta": "Fabio - Alanês - Cilene - Aline"
+    "obreiroPonto1": "Lucimar - Gisele",
+    "obreiroPonto2": "Alanês - Éder",
+    "obreiroPonto3": "Fabio - Luiz",
+    "obreiroOferta": "Alanês - Éder - Lucas - Ronaldo Martins"
   },
   {
     "dataHoraId": "2023-11-29T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "29/11 quarta 19:30",
-    "obreiroPonto1": "Isaias Pereira",
+    "obreiroPonto1": "Lucimar",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Lucas - Tiago",
-    "obreiroOferta": "Isaias Manoel - Izaias Santos"
+    "obreiroPonto3": "Tiago - Hudson",
+    "obreiroOferta": "Isaias Manoel - Janice"
   },
   {
     "dataHoraId": "2023-12-01T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "01/12 sexta 19:30",
-    "obreiroPonto1": "Ronaldo Martins",
+    "obreiroPonto1": "Mary",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Samer - Hudson",
-    "obreiroOferta": "Fabio - Edivan"
+    "obreiroPonto3": "Edivan - Alanês",
+    "obreiroOferta": "Aline - Éder"
   },
   {
     "dataHoraId": "2023-12-03T10:00:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": true,
     "dataHoraCulto": "03/12 domingo 10:00",
-    "obreiroPonto1": "Luiz - Éder",
-    "obreiroPonto2": "Lucas - Tiago",
-    "obreiroPonto3": "Alanês - Izaias Santos",
-    "obreiroOferta": "Nathascha - Lucimar - Tiago - Lucas"
+    "obreiroPonto1": "Gisele - Cilene",
+    "obreiroPonto2": "Fabio - Luiz",
+    "obreiroPonto3": "Samer - Izaias Santos",
+    "obreiroOferta": "Fabio - Luiz - Nathascha - Ronaldo Moital"
   },
   {
     "dataHoraId": "2023-12-03T18:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "03/12 domingo 18:30",
-    "obreiroPonto1": "Ronaldo Moital - Isaias Manoel",
-    "obreiroPonto2": "Ronaldo Martins - Hudson",
-    "obreiroPonto3": "Samer - Edivan",
-    "obreiroOferta": "Hudson - Janice - Cilene - Ronaldo Martins"
+    "obreiroPonto1": "Mary - Lucimar",
+    "obreiroPonto2": "Lucas - Ronaldo Martins",
+    "obreiroPonto3": "Tiago - Hudson",
+    "obreiroOferta": "Lucas - Ronaldo Martins - Fabio - Luiz"
   },
   {
     "dataHoraId": "2023-12-06T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "06/12 quarta 19:30",
-    "obreiroPonto1": "Isaias Pereira",
+    "obreiroPonto1": "Cilene",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Luiz - Fabio",
-    "obreiroOferta": "Éder - Tiago"
+    "obreiroPonto3": "Isaias Pereira - Ronaldo Moital",
+    "obreiroOferta": "Nathascha - Edivan"
   },
   {
     "dataHoraId": "2023-12-08T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "08/12 sexta 19:30",
-    "obreiroPonto1": "Lucas",
+    "obreiroPonto1": "Aline",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Izaias Santos - Ronaldo Moital",
-    "obreiroOferta": "Alanês - Isaias Manoel"
+    "obreiroPonto3": "Alanês - Éder",
+    "obreiroOferta": "Isaias Manoel - Janice"
   },
   {
     "dataHoraId": "2023-12-10T18:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "10/12 domingo 18:30",
-    "obreiroPonto1": "Ronaldo Martins - Isaias Pereira",
-    "obreiroPonto2": "Samer - Hudson",
-    "obreiroPonto3": "Edivan - Fabio",
-    "obreiroOferta": "Hudson - Aline - Samer - Mary"
+    "obreiroPonto1": "Gisele - Nathascha",
+    "obreiroPonto2": "Isaias Pereira - Ronaldo Martins",
+    "obreiroPonto3": "Samer - Izaias Santos",
+    "obreiroOferta": "Isaias Pereira - Ronaldo Martins - Lucas - Tiago"
   },
   {
     "dataHoraId": "2023-12-13T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "13/12 quarta 19:30",
-    "obreiroPonto1": "Luiz",
+    "obreiroPonto1": "Mary",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Tiago - Lucas",
-    "obreiroOferta": "Éder - Izaias Santos"
+    "obreiroPonto3": "Alanês - Éder",
+    "obreiroOferta": "Hudson - Lucimar"
   },
   {
     "dataHoraId": "2023-12-15T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "15/12 sexta 19:30",
-    "obreiroPonto1": "Ronaldo Moital",
+    "obreiroPonto1": "Aline",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Isaias Manoel - Alanês",
-    "obreiroOferta": "Ronaldo Martins - Hudson"
+    "obreiroPonto3": "Fabio - Ronaldo Martins",
+    "obreiroOferta": "Isaias Manoel - Janice"
   },
   {
     "dataHoraId": "2023-12-17T18:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "17/12 domingo 18:30",
-    "obreiroPonto1": "Isaias Pereira - Samer",
-    "obreiroPonto2": "Fabio - Tiago",
+    "obreiroPonto1": "Cilene - Gisele",
+    "obreiroPonto2": "Isaias Pereira - Ronaldo Moital",
     "obreiroPonto3": "Edivan - Luiz",
-    "obreiroOferta": "Fabio - Tiago - Gisele - Nathascha"
+    "obreiroOferta": "Isaias Pereira - Ronaldo Moital - Samer - Izaias Santos"
   },
   {
     "dataHoraId": "2023-12-20T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "20/12 quarta 19:30",
-    "obreiroPonto1": "Izaias Santos",
+    "obreiroPonto1": "Lucimar",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Isaias Manoel - Alanês",
-    "obreiroOferta": "Éder - Lucas"
+    "obreiroPonto3": "Lucas - Tiago",
+    "obreiroOferta": "Fabio - Éder"
   },
   {
     "dataHoraId": "2023-12-22T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "22/12 sexta 19:30",
-    "obreiroPonto1": "Isaias Pereira",
+    "obreiroPonto1": "Cilene",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Martins - Ronaldo Moital",
-    "obreiroOferta": "Samer - Hudson"
+    "obreiroPonto3": "Isaias Pereira - Hudson",
+    "obreiroOferta": "Edivan - Ronaldo Martins"
   },
   {
     "dataHoraId": "2023-12-24T18:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "24/12 domingo 18:30",
-    "obreiroPonto1": "Tiago - Fabio",
-    "obreiroPonto2": "Edivan - Isaias Pereira",
-    "obreiroPonto3": "Izaias Santos - Luiz",
-    "obreiroOferta": "Lucimar - Janice - Edivan - Isaias Pereira"
+    "obreiroPonto1": "Aline - Mary",
+    "obreiroPonto2": "Isaias Manoel - Alanês",
+    "obreiroPonto3": "Ronaldo Moital - Luiz",
+    "obreiroOferta": "Isaias Manoel - Alanês - Nathascha - Gisele"
   },
   {
     "dataHoraId": "2023-12-27T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "27/12 quarta 19:30",
-    "obreiroPonto1": "Lucas",
+    "obreiroPonto1": "Janice",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Isaias Manoel - Alanês",
-    "obreiroOferta": "Ronaldo Moital - Éder"
+    "obreiroPonto3": "Samer - Lucas",
+    "obreiroOferta": "Izaias Santos - Tiago"
   },
   {
     "dataHoraId": "2023-12-29T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "29/12 sexta 19:30",
-    "obreiroPonto1": "Hudson",
+    "obreiroPonto1": "Nathascha",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Martins - Samer",
-    "obreiroOferta": "Fabio - Lucas"
+    "obreiroPonto3": "Fabio - Isaias Manoel",
+    "obreiroOferta": "Isaias Pereira - Hudson"
   },
   {
     "dataHoraId": "2023-12-31T18:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "31/12 domingo 18:30",
-    "obreiroPonto1": "Tiago - Alanês",
-    "obreiroPonto2": "Edivan - Luiz",
-    "obreiroPonto3": "Izaias Santos - Isaias Manoel",
-    "obreiroOferta": "Edivan - Aline - Mary - Luiz"
+    "obreiroPonto1": "Lucimar - Aline",
+    "obreiroPonto2": "Edivan - Éder",
+    "obreiroPonto3": "Alanês - Ronaldo Moital",
+    "obreiroOferta": "Edivan - Éder - Mary - Luiz"
   }
 ]
