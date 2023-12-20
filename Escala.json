@@ -17,7 +17,7 @@
     "obreiroPonto1": "Cilene",
     "obreiroPonto2": "Isaias Manoel - Fabio",
     "obreiroPonto3": "Tiago - Luiz",
-    "obreiroOferta": "Fabio - Janice - Lucimar - Isaias Manoel"
+    "obreiroOferta": "Fabio - Lucimar - Janice - Isaias Manoel"
   },
   {
     "dataHoraId": "2023-12-03T18:30:00",
@@ -25,9 +25,9 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "03/12 domingo 18:30",
     "obreiroPonto1": "Isaac",
-    "obreiroPonto2": "Éder - Ronaldo Martins",
-    "obreiroPonto3": "Edivan - Izaias Santos",
-    "obreiroOferta": "Nathascha - Éder - Gisele - Ronaldo Martins"
+    "obreiroPonto2": "Ronaldo Martins - Éder",
+    "obreiroPonto3": "Izaias Santos - Edivan",
+    "obreiroOferta": "Éder - Ronaldo Martins - Gisele - Nathascha"
   },
   {
     "dataHoraId": "2023-12-06T19:30:00",
@@ -47,7 +47,7 @@
     "obreiroPonto1": "Samer",
     "obreiroPonto2": "-",
     "obreiroPonto3": "Isaias Manoel - Alanês",
-    "obreiroOferta": "Lucas - Fabio"
+    "obreiroOferta": "Fabio - Lucas"
   },
   {
     "dataHoraId": "2023-12-10T18:30:00",
@@ -55,9 +55,9 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "10/12 domingo 18:30",
     "obreiroPonto1": "Isaias Manoel",
-    "obreiroPonto2": "Samer - Isaias Pereira",
-    "obreiroPonto3": "Ronaldo Moital - Tiago",
-    "obreiroOferta": "Isaias Pereira - Éder - Samer - Ronaldo Martins"
+    "obreiroPonto2": "Isaias Pereira - Samer",
+    "obreiroPonto3": "Tiago - Ronaldo Moital",
+    "obreiroOferta": "Isaias Pereira - Samer - Éder - Ronaldo Martins"
   },
   {
     "dataHoraId": "2023-12-13T19:30:00",
@@ -67,7 +67,7 @@
     "obreiroPonto1": "Tiago",
     "obreiroPonto2": "-",
     "obreiroPonto3": "Izaias Santos - Edivan",
-    "obreiroOferta": "Luiz - Nathascha"
+    "obreiroOferta": "Nathascha - Luiz"
   },
   {
     "dataHoraId": "2023-12-15T19:30:00",
@@ -77,7 +77,7 @@
     "obreiroPonto1": "Ronaldo Martins",
     "obreiroPonto2": "-",
     "obreiroPonto3": "Isaias Manoel - Hudson",
-    "obreiroOferta": "Aline - Janice"
+    "obreiroOferta": "Janice - Aline"
   },
   {
     "dataHoraId": "2023-12-17T18:30:00",
@@ -85,9 +85,9 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "17/12 domingo 18:30",
     "obreiroPonto1": "Ronaldo Moital",
-    "obreiroPonto2": "Isaias Pereira - Alanês",
-    "obreiroPonto3": "Fabio - Tiago",
-    "obreiroOferta": "Lucas - Isaias Pereira - Alanês - Lucimar"
+    "obreiroPonto2": "Alanês - Isaias Pereira",
+    "obreiroPonto3": "Tiago - Fabio",
+    "obreiroOferta": "Lucas - Lucimar - Isaias Pereira - Alanês"
   },
   {
     "dataHoraId": "2023-12-20T19:30:00",
@@ -96,8 +96,8 @@
     "dataHoraCulto": "20/12 quarta 19:30",
     "obreiroPonto1": "Alanês",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Moital - Samer",
-    "obreiroOferta": "Gisele - Nathascha"
+    "obreiroPonto3": "Samer - Ronaldo Moital",
+    "obreiroOferta": "Nathascha - Gisele"
   },
   {
     "dataHoraId": "2023-12-22T19:30:00",
@@ -106,8 +106,8 @@
     "dataHoraCulto": "22/12 sexta 19:30",
     "obreiroPonto1": "Luiz",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Martins - Éder",
-    "obreiroOferta": "Isaias Pereira - Aline"
+    "obreiroPonto3": "Éder - Ronaldo Martins",
+    "obreiroOferta": "Aline - Isaias Pereira"
   },
   {
     "dataHoraId": "2023-12-24T18:30:00",
@@ -117,7 +117,7 @@
     "obreiroPonto1": "Éder",
     "obreiroPonto2": "Edivan - Izaias Santos",
     "obreiroPonto3": "Luiz - Isaias Manoel",
-    "obreiroOferta": "Hudson - Izaias Santos - Edivan - Alanês"
+    "obreiroOferta": "Edivan - Alanês - Hudson - Izaias Santos"
   },
   {
     "dataHoraId": "2023-12-27T19:30:00",
@@ -126,7 +126,7 @@
     "dataHoraCulto": "27/12 quarta 19:30",
     "obreiroPonto1": "Tiago",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Éder - Lucas",
+    "obreiroPonto3": "Lucas - Éder",
     "obreiroOferta": "Ronaldo Martins - Samer"
   },
   {
@@ -145,8 +145,8 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "31/12 domingo 18:30",
     "obreiroPonto1": "Fabio",
-    "obreiroPonto2": "Ronaldo Moital - Izaias Santos",
-    "obreiroPonto3": "Tiago - Edivan",
-    "obreiroOferta": "Aline - Izaias Santos - Isaias Manoel - Ronaldo Moital"
+    "obreiroPonto2": "Ronaldo Martins - Izaias Santos",
+    "obreiroPonto3": "Éder - Edivan",
+    "obreiroOferta": "Ronaldo Martins - Isaias Manoel - Aline - Izaias Santos"
   }
 ]
