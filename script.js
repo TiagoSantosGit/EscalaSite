@@ -146,7 +146,7 @@ function doisDigitos(numero) {
 /*Cria linhas da tabela*/
 function criarTabela(escala) {
     const linhas = escala.map(diaCulto => {
-        let dados = [diaCulto.dataHoraCulto, diaCulto.obreiroPonto1, diaCulto.obreiroPonto2, diaCulto.obreiroPonto3, diaCulto.obreiroOferta]
+        let dados = [diaCulto.dataHoraCulto, diaCulto.obreiroPonto1, diaCulto.obreiroPonto2, diaCulto.obreiroPonto3, diaCulto.obreiroOferta, diaCulto.obreiroOfertaMaquininha]
         let celulas = []
         for (let index = 0; index < dados.length; index++) {
             let td = document.createElement('td')
