@@ -4,9 +4,12 @@ let verseRef = document.getElementById("versoRef")
 const versions = ['nvi', 'acf']
 const version = getRandom(2) == 0 ? versions[0] : versions[1]
 
-ajax({
+getAPI({
     url: `https://www.abibliadigital.com.br/api/verses/${version}/random`,
     method: "get",
+    headers: {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdHIiOiJTYXQgSmFuIDE3IDIwMjYgMjM6MzE6MzUgR01UKzAwMDAudGlhZ29zYW50b3NwbnpAaG90bWFpbC5jb20iLCJpYXQiOjE3Njg2OTI2OTV9.Zuf29-vxDrDyJhqlOhNk0W3tFoDab9L3wv6uTUOZBYE"
+    },
     success(response) {
         try {
             const verseBible = JSON.parse(response)
@@ -21,7 +24,7 @@ ajax({
     }
 })
 
-ajax({
+getAPI({
     url: "Escala.json",
     method: "get",
     success(response) {
@@ -190,9 +193,14 @@ function errorVerse(e) {
 }
 
 /*Requisição da API e do arquivo JSON*/
-function ajax(config) {
+function getAPI(config) {
     const xhr = new XMLHttpRequest()
     xhr.open(config.method, config.url, true)
+    if (config.headers) {
+        for (const key in config.headers) {
+            xhr.setRequestHeader(key, config.headers[key])
+        }
+    }
     xhr.onload = e => {
         if (xhr.status === 200) {
             config.success(xhr.response)
