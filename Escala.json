@@ -1,167 +1,24 @@
 [
   {
-    "dataHoraId": "2026-03-01T10:00:00",
-    "idCongregacao": 1,
-    "cultoDeSantaCeia": true,
-    "dataHoraCulto": "01/03 domingo 10:00",
-    "obreiroPonto1": "Rafael",
-    "obreiroPonto2": "João - Fabio",
-    "obreiroPonto3": "Tiago - Izaias Santos",
-    "obreiroOferta": "Gisele - Edivan - João - Fabio",
-    "obreiroOfertaMaquininha": "Lene - Éder - Lucas"
-  },
-  {
-    "dataHoraId": "2026-03-01T18:30:00",
-    "idCongregacao": 1,
-    "cultoDeSantaCeia": false,
-    "dataHoraCulto": "01/03 domingo 18:30",
-    "obreiroPonto1": "Ronaldo Moital",
-    "obreiroPonto2": "Isaias Manoel - Luiz",
-    "obreiroPonto3": "Isaias Pereira - Hudson",
-    "obreiroOferta": "Luiz - Isaias Manoel - Cilene - Aline",
-    "obreiroOfertaMaquininha": "Alanês - João - Rafael"
-  },
-  {
-    "dataHoraId": "2026-03-04T19:30:00",
-    "idCongregacao": 1,
-    "cultoDeSantaCeia": false,
-    "dataHoraCulto": "04/03 quarta 19:30",
-    "obreiroPonto1": "Luiz",
-    "obreiroPonto2": "-",
-    "obreiroPonto3": "Alanês - Edivan",
-    "obreiroOferta": "Ronaldo Moital - Isaias Pereira",
-    "obreiroOfertaMaquininha": "-"
-  },
-  {
-    "dataHoraId": "2026-03-06T19:30:00",
-    "idCongregacao": 1,
-    "cultoDeSantaCeia": false,
-    "dataHoraCulto": "06/03 sexta 19:30",
-    "obreiroPonto1": "Isaias Manoel",
-    "obreiroPonto2": "-",
-    "obreiroPonto3": "Fabio - Hudson",
-    "obreiroOferta": "Lucas - Izaias Santos",
-    "obreiroOfertaMaquininha": "-"
-  },
-  {
-    "dataHoraId": "2026-03-08T18:30:00",
-    "idCongregacao": 1,
-    "cultoDeSantaCeia": false,
-    "dataHoraCulto": "08/03 domingo 18:30",
-    "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Éder - Luiz",
-    "obreiroPonto3": "João - Rafael",
-    "obreiroOferta": "Éder - Luiz - Lucimar - Aline",
-    "obreiroOfertaMaquininha": "Fabio - Lene - Hudson"
-  },
-  {
-    "dataHoraId": "2026-03-11T19:30:00",
-    "idCongregacao": 1,
-    "cultoDeSantaCeia": false,
-    "dataHoraCulto": "11/03 quarta 19:30",
-    "obreiroPonto1": "Alanês",
-    "obreiroPonto2": "-",
-    "obreiroPonto3": "Isaias Pereira - Edivan",
-    "obreiroOferta": "Ronaldo Moital - Lene",
-    "obreiroOfertaMaquininha": "-"
-  },
-  {
-    "dataHoraId": "2026-03-13T19:30:00",
-    "idCongregacao": 1,
-    "cultoDeSantaCeia": false,
-    "dataHoraCulto": "13/03 sexta 19:30",
-    "obreiroPonto1": "Isaias Manoel",
-    "obreiroPonto2": "-",
-    "obreiroPonto3": "Éder - Izaias Santos",
-    "obreiroOferta": "João - Lucas",
-    "obreiroOfertaMaquininha": "-"
-  },
-  {
-    "dataHoraId": "2026-03-15T18:30:00",
-    "idCongregacao": 1,
-    "cultoDeSantaCeia": false,
-    "dataHoraCulto": "15/03 domingo 18:30",
-    "obreiroPonto1": "Luiz",
-    "obreiroPonto2": "Edivan - Isaias Pereira",
-    "obreiroPonto3": "Isaias Manoel - Ronaldo Moital",
-    "obreiroOferta": "Edivan - Luiz - Cilene - Lucimar",
-    "obreiroOfertaMaquininha": "Rafael - Hudson - Fabio"
-  },
-  {
-    "dataHoraId": "2026-03-18T19:30:00",
-    "idCongregacao": 1,
-    "cultoDeSantaCeia": false,
-    "dataHoraCulto": "18/03 quarta 19:30",
-    "obreiroPonto1": "Izaias Santos",
-    "obreiroPonto2": "-",
-    "obreiroPonto3": "Alanês - Isaias Pereira",
-    "obreiroOferta": "Éder - Lene",
-    "obreiroOfertaMaquininha": "-"
-  },
-  {
-    "dataHoraId": "2026-03-20T19:30:00",
-    "idCongregacao": 1,
-    "cultoDeSantaCeia": false,
-    "dataHoraCulto": "20/03 sexta 19:30",
-    "obreiroPonto1": "Lucas",
-    "obreiroPonto2": "-",
-    "obreiroPonto3": "Edivan - João",
-    "obreiroOferta": "Hudson - Izaias Santos",
-    "obreiroOfertaMaquininha": "-"
-  },
-  {
-    "dataHoraId": "2026-03-22T18:30:00",
-    "idCongregacao": 1,
-    "cultoDeSantaCeia": false,
-    "dataHoraCulto": "22/03 domingo 18:30",
-    "obreiroPonto1": "Edivan",
-    "obreiroPonto2": "Isaias Pereira - Luiz",
-    "obreiroPonto3": "Isaias Manoel - Ronaldo Moital",
-    "obreiroOferta": "Lucimar - Isaias Pereira - Luiz - Gisele",
-    "obreiroOfertaMaquininha": "Fabio - Rafael - Alanês"
-  },
-  {
-    "dataHoraId": "2026-03-25T19:30:00",
-    "idCongregacao": 1,
-    "cultoDeSantaCeia": false,
-    "dataHoraCulto": "25/03 quarta 19:30",
-    "obreiroPonto1": "Lucas",
-    "obreiroPonto2": "-",
-    "obreiroPonto3": "Éder - Edivan",
-    "obreiroOferta": "Lene - João",
-    "obreiroOfertaMaquininha": "-"
-  },
-  {
-    "dataHoraId": "2026-03-27T19:30:00",
-    "idCongregacao": 1,
-    "cultoDeSantaCeia": false,
-    "dataHoraCulto": "27/03 sexta 19:30",
-    "obreiroPonto1": "Isaias Pereira",
-    "obreiroPonto2": "-",
-    "obreiroPonto3": "Luiz - Hudson",
-    "obreiroOferta": "Isaias Manoel - Ronaldo Moital",
-    "obreiroOfertaMaquininha": "-"
-  },
-  {
     "dataHoraId": "2026-03-29T18:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "29/03 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Rafael - Lucas",
-    "obreiroPonto3": "Fabio - Alanês",
-    "obreiroOferta": "Rafael - Gisele - Aline - Lucas",
-    "obreiroOfertaMaquininha": "Izaias Santos - Lene - Éder"
+    "obreiroPonto2": "João - Ronaldo Moital",
+    "obreiroPonto3": "Fabio - Izaias Santos",
+    "obreiroOferta": "Ronaldo Moital - João - Aline - Lucimar",
+    "obreiroOfertaMaquininha": "Edivan - Lucas - Rafael - Hudson"
   },
   {
     "dataHoraId": "2026-04-01T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "01/04 quarta 19:30",
-    "obreiroPonto1": "Edivan",
+    "obreiroPonto1": "Luiz",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "João - Isaias Pereira",
-    "obreiroOferta": "Luiz - Hudson",
+    "obreiroPonto3": "Isaias Manoel - Isaias Pereira",
+    "obreiroOferta": "Lene - Éder",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -171,8 +28,8 @@
     "dataHoraCulto": "03/04 sexta 19:30",
     "obreiroPonto1": "Alanês",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Moital - Isaias Manoel",
-    "obreiroOferta": "Rafael - Lucas",
+    "obreiroPonto3": "Fabio - Rafael",
+    "obreiroOferta": "Edivan - Éder",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -180,32 +37,32 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": true,
     "dataHoraCulto": "05/04 domingo 10:00",
-    "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Fabio - Izaias Santos",
-    "obreiroPonto3": "Éder - João",
-    "obreiroOferta": "Fabio - Izaias Santos - Cilene - Gisele",
-    "obreiroOfertaMaquininha": "Alanês - Lene - Edivan"
+    "obreiroPonto1": "Ronaldo Moital",
+    "obreiroPonto2": "Hudson - Luiz",
+    "obreiroPonto3": "João - Lucas",
+    "obreiroOferta": "Gisele - Cilene - Hudson - Luiz",
+    "obreiroOfertaMaquininha": "Alanês - Izaias Santos - Isaias Pereira - Lene"
   },
   {
     "dataHoraId": "2026-04-05T18:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "05/04 domingo 18:30",
-    "obreiroPonto1": "Hudson",
-    "obreiroPonto2": "Isaias Manoel - Isaias Pereira",
-    "obreiroPonto3": "Luiz - Tiago",
-    "obreiroOferta": "Aline - Lucimar - Isaias Manoel - Isaias Pereira",
-    "obreiroOfertaMaquininha": "Lene - Fabio - Lucas"
+    "obreiroPonto1": "Isaias Manoel",
+    "obreiroPonto2": "Alanês - Tiago",
+    "obreiroPonto3": "Fabio - Rafael",
+    "obreiroOferta": "Alanês - Tiago - Cilene - Gisele",
+    "obreiroOfertaMaquininha": "Edivan - Lene - Hudson - Luiz"
   },
   {
     "dataHoraId": "2026-04-08T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "08/04 quarta 19:30",
-    "obreiroPonto1": "Ronaldo Moital",
+    "obreiroPonto1": "Isaias Manoel",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Rafael - Izaias Santos",
-    "obreiroOferta": "Éder - Isaias Manoel",
+    "obreiroPonto3": "João - Ronaldo Moital",
+    "obreiroOferta": "Éder - Lucas",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -213,10 +70,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "10/04 sexta 19:30",
-    "obreiroPonto1": "Luiz",
+    "obreiroPonto1": "Isaias Pereira",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "João - Alanês",
-    "obreiroOferta": "Ronaldo Moital - Rafael",
+    "obreiroPonto3": "Izaias Santos - Alanês",
+    "obreiroOferta": "Éder - Rafael",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -224,21 +81,21 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "12/04 domingo 18:30",
-    "obreiroPonto1": "Edivan",
-    "obreiroPonto2": "Isaias Pereira - Hudson",
-    "obreiroPonto3": "Izaias Santos - Tiago",
-    "obreiroOferta": "Isaias Pereira - Hudson - Cilene - Aline",
-    "obreiroOfertaMaquininha": "Lene - Fabio - Lucas"
+    "obreiroPonto1": "Lucas",
+    "obreiroPonto2": "Ronaldo Moital - Hudson",
+    "obreiroPonto3": "Isaias Manoel - Tiago",
+    "obreiroOferta": "Hudson - Aline - Ronaldo Moital - Lucimar",
+    "obreiroOfertaMaquininha": "Lene - Luiz - Fabio - Edivan"
   },
   {
     "dataHoraId": "2026-04-15T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "15/04 quarta 19:30",
-    "obreiroPonto1": "Éder",
+    "obreiroPonto1": "Isaias Pereira",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Alanês - Isaias Pereira",
-    "obreiroOferta": "Hudson - Edivan",
+    "obreiroPonto3": "João - Izaias Santos",
+    "obreiroOferta": "Alanês - Hudson",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -246,10 +103,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "17/04 sexta 19:30",
-    "obreiroPonto1": "Luiz",
+    "obreiroPonto1": "Isaias Manoel",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Moital - João",
-    "obreiroOferta": "Isaias Manoel - Izaias Santos",
+    "obreiroPonto3": "Lucas - Éder",
+    "obreiroOferta": "Isaias Pereira - João",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -257,11 +114,11 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "19/04 domingo 18:30",
-    "obreiroPonto1": "Lucas",
-    "obreiroPonto2": "Fabio - Rafael",
-    "obreiroPonto3": "Éder - Tiago",
-    "obreiroOferta": "Gisele - Lucimar - Fabio - Rafael",
-    "obreiroOfertaMaquininha": "Lene - Alanês - Luiz"
+    "obreiroPonto1": "Luiz",
+    "obreiroPonto2": "Fabio - Ronaldo Moital",
+    "obreiroPonto3": "Tiago - Edivan",
+    "obreiroOferta": "Fabio - Cilene - Gisele - Ronaldo Moital",
+    "obreiroOfertaMaquininha": "Rafael - Lene - Izaias Santos - Lucas"
   },
   {
     "dataHoraId": "2026-04-22T19:30:00",
@@ -270,8 +127,8 @@
     "dataHoraCulto": "22/04 quarta 19:30",
     "obreiroPonto1": "Ronaldo Moital",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Hudson - Isaias Manoel",
-    "obreiroOferta": "Fabio - Edivan",
+    "obreiroPonto3": "Isaias Manoel - Fabio",
+    "obreiroOferta": "Éder - Alanês",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -281,8 +138,8 @@
     "dataHoraCulto": "24/04 sexta 19:30",
     "obreiroPonto1": "Rafael",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "João - Izaias Santos",
-    "obreiroOferta": "Lucas - Isaias Pereira",
+    "obreiroPonto3": "Isaias Pereira - João",
+    "obreiroOferta": "Hudson - Edivan",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -290,11 +147,11 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "26/04 domingo 18:30",
-    "obreiroPonto1": "Rafael",
-    "obreiroPonto2": "Éder - Alanês",
-    "obreiroPonto3": "Isaias Manoel - Tiago",
-    "obreiroOferta": "Cilene - Éder - Alanês - Gisele",
-    "obreiroOfertaMaquininha": "Lene - João - Izaias Santos"
+    "obreiroPonto1": "Tiago",
+    "obreiroPonto2": "Izaias Santos - Luiz",
+    "obreiroPonto3": "Isaias Manoel - Éder",
+    "obreiroOferta": "Aline - Lucimar - Izaias Santos - Luiz",
+    "obreiroOfertaMaquininha": "Lene - Hudson - Lucas - Rafael"
   },
   {
     "dataHoraId": "2026-04-29T19:30:00",
@@ -303,8 +160,8 @@
     "dataHoraCulto": "29/04 quarta 19:30",
     "obreiroPonto1": "Ronaldo Moital",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Hudson - Edivan",
-    "obreiroOferta": "Luiz - Isaias Pereira",
+    "obreiroPonto3": "Fabio - Isaias Pereira",
+    "obreiroOferta": "Alanês - Lene",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -312,10 +169,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "01/05 sexta 19:30",
-    "obreiroPonto1": "Lucas",
+    "obreiroPonto1": "João",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Éder - Fabio",
-    "obreiroOferta": "Isaias Manoel - Alanês",
+    "obreiroPonto3": "Luiz - Edivan",
+    "obreiroOferta": "Éder - Izaias Santos",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -324,10 +181,10 @@
     "cultoDeSantaCeia": true,
     "dataHoraCulto": "03/05 domingo 10:00",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Luiz - Rafael",
-    "obreiroPonto3": "Izaias Santos - Lucas",
-    "obreiroOferta": "Luiz - Rafael - Lucimar - Aline",
-    "obreiroOfertaMaquininha": "Lene - Hudson - Fabio"
+    "obreiroPonto2": "Lucas - Isaias Manoel",
+    "obreiroPonto3": "Alanês - Ronaldo Moital",
+    "obreiroOferta": "Aline - Lucas - Isaias Manoel - Cilene",
+    "obreiroOfertaMaquininha": "João - Hudson - Rafael - Isaias Pereira"
   },
   {
     "dataHoraId": "2026-05-03T18:30:00",
@@ -335,10 +192,10 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "03/05 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Edivan - Ronaldo Moital",
-    "obreiroPonto3": "João - Isaias Pereira",
-    "obreiroOferta": "Cilene - Lucimar - Edivan - Ronaldo Moital",
-    "obreiroOfertaMaquininha": "Lene - Éder - Izaias Santos"
+    "obreiroPonto2": "Edivan - Fabio",
+    "obreiroPonto3": "Luiz - Izaias Santos",
+    "obreiroOferta": "Gisele - Edivan - Lucimar - Fabio",
+    "obreiroOfertaMaquininha": "Alanês - Lene - Lucas - Éder"
   },
   {
     "dataHoraId": "2026-05-06T19:30:00",
@@ -347,8 +204,8 @@
     "dataHoraCulto": "06/05 quarta 19:30",
     "obreiroPonto1": "Isaias Manoel",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Isaias Pereira - Alanês",
-    "obreiroOferta": "Luiz - Rafael",
+    "obreiroPonto3": "Fabio - Edivan",
+    "obreiroOferta": "Lene - Ronaldo Moital",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -356,10 +213,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "08/05 sexta 19:30",
-    "obreiroPonto1": "Fabio",
+    "obreiroPonto1": "Hudson",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Moital - Edivan",
-    "obreiroOferta": "João - Lucas",
+    "obreiroPonto3": "Rafael - Isaias Pereira",
+    "obreiroOferta": "Luiz - João",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -367,21 +224,21 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "10/05 domingo 18:30",
-    "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Éder - Hudson",
-    "obreiroPonto3": "Fabio - Isaias Manoel",
-    "obreiroOferta": "Aline - Gisele - Éder - Hudson",
-    "obreiroOfertaMaquininha": "Alanês - Luiz - Lene"
+    "obreiroPonto1": "Isaias Pereira",
+    "obreiroPonto2": "Izaias Santos - Éder",
+    "obreiroPonto3": "Lucas - Tiago",
+    "obreiroOferta": "Gisele - Éder - Izaias Santos - Aline",
+    "obreiroOfertaMaquininha": "Edivan - Hudson - João - Rafael"
   },
   {
     "dataHoraId": "2026-05-13T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "13/05 quarta 19:30",
-    "obreiroPonto1": "Izaias Santos",
+    "obreiroPonto1": "Isaias Manoel",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Isaias Pereira - Rafael",
-    "obreiroOferta": "Hudson - Ronaldo Moital",
+    "obreiroPonto3": "Fabio - Ronaldo Moital",
+    "obreiroOferta": "Lene - Alanês",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -389,10 +246,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "15/05 sexta 19:30",
-    "obreiroPonto1": "Edivan",
+    "obreiroPonto1": "Luiz",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "João - Lucas",
-    "obreiroOferta": "Éder - Isaias Manoel",
+    "obreiroPonto3": "Izaias Santos - Éder",
+    "obreiroOferta": "Isaias Manoel - Lucas",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -401,10 +258,10 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "17/05 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Fabio - Izaias Santos",
-    "obreiroPonto3": "Isaias Pereira - Rafael",
-    "obreiroOferta": "Fabio - Izaias Santos - Cilene - Lucimar",
-    "obreiroOfertaMaquininha": "Lene - Alanês - Luiz"
+    "obreiroPonto2": "Fabio - Isaias Pereira",
+    "obreiroPonto3": "Ronaldo Moital - Alanês",
+    "obreiroOferta": "Cilene - Fabio - Isaias Pereira - Lucimar",
+    "obreiroOfertaMaquininha": "Rafael - Lene - Hudson - Luiz"
   },
   {
     "dataHoraId": "2026-05-20T19:30:00",
@@ -413,8 +270,8 @@
     "dataHoraCulto": "20/05 quarta 19:30",
     "obreiroPonto1": "João",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Hudson - Edivan",
-    "obreiroOferta": "Lene - Lucas",
+    "obreiroPonto3": "Edivan - Izaias Santos",
+    "obreiroOferta": "Éder - Lucas",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -422,9 +279,9 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "22/05 sexta 19:30",
-    "obreiroPonto1": "Ronaldo Moital",
+    "obreiroPonto1": "Isaias Pereira",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Éder - Fabio",
+    "obreiroPonto3": "Alanês - Ronaldo Moital",
     "obreiroOferta": "Isaias Manoel - João",
     "obreiroOfertaMaquininha": "-"
   },
@@ -433,21 +290,21 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "24/05 domingo 18:30",
-    "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Hudson - Izaias Santos",
-    "obreiroPonto3": "Isaias Pereira - Rafael",
-    "obreiroOferta": "Hudson - Izaias Santos - Aline - Gisele",
-    "obreiroOfertaMaquininha": "Alanês - Luiz - Éder"
+    "obreiroPonto1": "Edivan",
+    "obreiroPonto2": "Edivan - Fabio",
+    "obreiroPonto3": "Tiago - Rafael",
+    "obreiroOferta": "Luiz - Fabio - Cilene - Gisele",
+    "obreiroOfertaMaquininha": "Lene - Hudson - Éder - Izaias Santos"
   },
   {
     "dataHoraId": "2026-05-27T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "27/05 quarta 19:30",
-    "obreiroPonto1": "Ronaldo Moital",
+    "obreiroPonto1": "Alanês",
     "obreiroPonto2": "-",
     "obreiroPonto3": "Edivan - Lucas",
-    "obreiroOferta": "Lene - Fabio",
+    "obreiroOferta": "Fabio - Isaias Pereira",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -455,10 +312,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "29/05 sexta 19:30",
-    "obreiroPonto1": "Isaias Manoel",
+    "obreiroPonto1": "Ronaldo Moital",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Hudson - Izaias Santos",
-    "obreiroOferta": "Isaias Pereira - Rafael",
+    "obreiroPonto3": "Rafael - Isaias Manoel",
+    "obreiroOferta": "João - Hudson",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -467,20 +324,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "31/05 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Alanês - Luiz",
-    "obreiroPonto3": "João - Ronaldo Moital",
-    "obreiroOferta": "Alanês - Luiz - Cilene - Lucimar",
-    "obreiroOfertaMaquininha": "Lene - Edivan - Lucas"
+    "obreiroPonto2": "Luiz - Izaias Santos",
+    "obreiroPonto3": "Alanês - Éder",
+    "obreiroOferta": "Aline - Luiz - Lucimar - Izaias Santos",
+    "obreiroOfertaMaquininha": "Rafael - Lucas - Fabio - Lene"
   },
   {
     "dataHoraId": "2026-06-03T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "03/06 quarta 19:30",
-    "obreiroPonto1": "Éder",
+    "obreiroPonto1": "Ronaldo Moital",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Isaias Manoel - Fabio",
-    "obreiroOferta": "Alanês - Luiz",
+    "obreiroPonto3": "Edivan - Isaias Manoel",
+    "obreiroOferta": "Isaias Pereira - Hudson",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -490,8 +347,8 @@
     "dataHoraCulto": "05/06 sexta 19:30",
     "obreiroPonto1": "João",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Hudson - Izaias Santos",
-    "obreiroOferta": "Isaias Pereira - Rafael",
+    "obreiroPonto3": "Izaias Santos - Luiz",
+    "obreiroOferta": "Éder - Alanês",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -500,10 +357,10 @@
     "cultoDeSantaCeia": true,
     "dataHoraCulto": "07/06 domingo 10:00",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Éder - Ronaldo Moital",
-    "obreiroPonto3": "Edivan - Lucas",
-    "obreiroOferta": "Éder - Ronaldo Moital - Aline - Gisele",
-    "obreiroOfertaMaquininha": "Lene - Fabio - João"
+    "obreiroPonto2": "Fabio - Ronaldo Moital",
+    "obreiroPonto3": "Isaias Manoel - Edivan",
+    "obreiroOferta": "Fabio - Ronaldo Moital - Aline - Gisele",
+    "obreiroOfertaMaquininha": "Lene - Isaias Pereira - Hudson - Lucas"
   },
   {
     "dataHoraId": "2026-06-07T18:30:00",
@@ -511,20 +368,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "07/06 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Isaias Manoel - Hudson",
-    "obreiroPonto3": "Izaias Santos - Isaias Pereira",
-    "obreiroOferta": "Isaias Manoel - Hudson - Cilene - Lucimar",
-    "obreiroOfertaMaquininha": "Rafael - Alanês - Luiz"
+    "obreiroPonto2": "Rafael - João",
+    "obreiroPonto3": "Luiz - Izaias Santos",
+    "obreiroOferta": "Cilene - Lucimar - João - Rafael",
+    "obreiroOfertaMaquininha": "Lene - Lucas - Fabio - Éder"
   },
   {
     "dataHoraId": "2026-06-10T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "10/06 quarta 19:30",
-    "obreiroPonto1": "Éder",
+    "obreiroPonto1": "Isaias Manoel",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Moital - Edivan",
-    "obreiroOferta": "Lene - Lucas",
+    "obreiroPonto3": "Alanês - Ronaldo Moital",
+    "obreiroOferta": "Edivan - Isaias Pereira",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -532,10 +389,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "12/06 sexta 19:30",
-    "obreiroPonto1": "Isaias Manoel",
+    "obreiroPonto1": "Rafael",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Fabio - Hudson",
-    "obreiroOferta": "Izaias Santos - Isaias Pereira",
+    "obreiroPonto3": "João - Luiz",
+    "obreiroOferta": "Hudson - Izaias Santos",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -543,21 +400,21 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "14/06 domingo 18:30",
-    "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Rafael - Alanês",
-    "obreiroPonto3": "Luiz - João",
-    "obreiroOferta": "Rafael - Alanês - Gisele - Aline",
-    "obreiroOfertaMaquininha": "Éder - Lene - Edivan"
+    "obreiroPonto1": "Alanês",
+    "obreiroPonto2": "Éder - Isaias Manoel",
+    "obreiroPonto3": "Ronaldo Moital - Tiago",
+    "obreiroOferta": "Gisele - Cilene - Isaias Manoel - Éder",
+    "obreiroOfertaMaquininha": "Isaias Pereira - Lene - Fabio - Edivan"
   },
   {
     "dataHoraId": "2026-06-17T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "17/06 quarta 19:30",
-    "obreiroPonto1": "Ronaldo Moital",
+    "obreiroPonto1": "Lucas",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Lucas - Isaias Manoel",
-    "obreiroOferta": "Fabio - Rafael",
+    "obreiroPonto3": "João - Rafael",
+    "obreiroOferta": "Luiz - Lene",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -565,10 +422,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "19/06 sexta 19:30",
-    "obreiroPonto1": "Alanês",
+    "obreiroPonto1": "Hudson",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Luiz - João",
-    "obreiroOferta": "Hudson - Izaias Santos",
+    "obreiroPonto3": "Izaias Santos - Éder",
+    "obreiroOferta": "Isaias Manoel - Lucas",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -577,20 +434,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "21/06 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Isaias Pereira - Ronaldo Moital",
-    "obreiroPonto3": "Lucas - Éder",
-    "obreiroOferta": "Isaias Pereira - Ronaldo Moital - Cilene - Lucimar",
-    "obreiroOfertaMaquininha": "Lene - Edivan - Fabio"
+    "obreiroPonto2": "Ronaldo Moital - Alanês",
+    "obreiroPonto3": "Isaias Pereira - Edivan",
+    "obreiroOferta": "Alanês - Ronaldo Moital - Aline - Lucimar",
+    "obreiroOfertaMaquininha": "Fabio - Hudson - Rafael - Lene"
   },
   {
     "dataHoraId": "2026-06-24T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "24/06 quarta 19:30",
-    "obreiroPonto1": "Isaias Manoel",
+    "obreiroPonto1": "João",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Isaias Pereira - Alanês",
-    "obreiroOferta": "Luiz - João",
+    "obreiroPonto3": "Luiz - Izaias Santos",
+    "obreiroOferta": "Éder - Alanês",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -598,10 +455,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "26/06 sexta 19:30",
-    "obreiroPonto1": "Hudson",
+    "obreiroPonto1": "Ronaldo Moital",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Izaias Santos - Rafael",
-    "obreiroOferta": "Ronaldo Moital - Lucas",
+    "obreiroPonto3": "Isaias Pereira - Edivan",
+    "obreiroOferta": "Fabio - Lucas",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -609,21 +466,21 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "28/06 domingo 18:30",
-    "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Éder - Edivan",
-    "obreiroPonto3": "Isaias Manoel - Fabio",
-    "obreiroOferta": "Éder - Edivan - Gisele - Aline",
-    "obreiroOfertaMaquininha": "Lene - Hudson - Izaias Santos"
+    "obreiroPonto1": "Hudson",
+    "obreiroPonto2": "João - Isaias Manoel",
+    "obreiroPonto3": "Luiz - Tiago",
+    "obreiroOferta": "João - Gisele - Lucimar - Isaias Manoel",
+    "obreiroOfertaMaquininha": "Rafael - Izaias Santos - Éder - Lene"
   },
   {
     "dataHoraId": "2026-07-01T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "01/07 quarta 19:30",
-    "obreiroPonto1": "Rafael",
+    "obreiroPonto1": "Isaias Manoel",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Isaias Pereira - Alanês",
-    "obreiroOferta": "Luiz - João",
+    "obreiroPonto3": "Ronaldo Moital - Edivan",
+    "obreiroOferta": "Isaias Pereira - Fabio",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -631,10 +488,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "03/07 sexta 19:30",
-    "obreiroPonto1": "Éder",
+    "obreiroPonto1": "Lucas",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Edivan - Ronaldo Moital",
-    "obreiroOferta": "Lucas - Isaias Manoel",
+    "obreiroPonto3": "Alanês - João",
+    "obreiroOferta": "Luiz - Hudson",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -643,10 +500,10 @@
     "cultoDeSantaCeia": true,
     "dataHoraCulto": "05/07 domingo 10:00",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Fabio - Rafael",
-    "obreiroPonto3": "Isaias Pereira - Alanês",
-    "obreiroOferta": "Fabio - Rafael - Cilene - Lucimar",
-    "obreiroOfertaMaquininha": "Lene - Luiz - João"
+    "obreiroPonto2": "Izaias Santos - Rafael",
+    "obreiroPonto3": "Éder - Lucas",
+    "obreiroOferta": "Aline - Cilene - Rafael - Izaias Santos",
+    "obreiroOfertaMaquininha": "Isaias Pereira - Alanês - Lene - Edivan"
   },
   {
     "dataHoraId": "2026-07-05T18:30:00",
@@ -654,20 +511,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "05/07 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Hudson - Izaias Santos",
-    "obreiroPonto3": "Éder - Edivan",
-    "obreiroOferta": "Hudson - Izaias Santos - Gisele - Cilene",
-    "obreiroOfertaMaquininha": "Lene - Lucas - Fabio"
+    "obreiroPonto2": "Isaias Manoel - Ronaldo Moital",
+    "obreiroPonto3": "Fabio - Rafael",
+    "obreiroOferta": "Ronaldo Moital - Isaias Manoel - Lucimar - Gisele",
+    "obreiroOfertaMaquininha": "Lene - Hudson - João - Luiz"
   },
   {
     "dataHoraId": "2026-07-08T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "08/07 quarta 19:30",
-    "obreiroPonto1": "Ronaldo Moital",
+    "obreiroPonto1": "Izaias Santos",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Isaias Manoel - Hudson",
-    "obreiroOferta": "Izaias Santos - Rafael",
+    "obreiroPonto3": "Éder - Alanês",
+    "obreiroOferta": "Isaias Manoel - Ronaldo Moital",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -675,10 +532,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "10/07 sexta 19:30",
-    "obreiroPonto1": "Isaias Pereira",
+    "obreiroPonto1": "Fabio",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Alanês - Luiz",
-    "obreiroOferta": "João - Ronaldo Moital",
+    "obreiroPonto3": "Edivan - Lucas",
+    "obreiroOferta": "Isaias Pereira - Rafael",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -686,21 +543,21 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "12/07 domingo 18:30",
-    "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Éder - Edivan",
-    "obreiroPonto3": "Lucas - Isaias Manoel",
-    "obreiroOferta": "Éder - Edivan - Aline - Lucimar",
-    "obreiroOfertaMaquininha": "Lene - Fabio - Isaias Pereira"
+    "obreiroPonto1": "Izaias Santos",
+    "obreiroPonto2": "Luiz - João",
+    "obreiroPonto3": "Hudson - Tiago",
+    "obreiroOferta": "Cilene - Luiz - João - Aline",
+    "obreiroOfertaMaquininha": "Fabio - Lene - Alanês - Éder"
   },
   {
     "dataHoraId": "2026-07-15T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "15/07 quarta 19:30",
-    "obreiroPonto1": "Alanês",
+    "obreiroPonto1": "Lucas",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Luiz - João",
-    "obreiroOferta": "Hudson - Izaias Santos",
+    "obreiroPonto3": "Isaias Pereira - Edivan",
+    "obreiroOferta": "Ronaldo Moital - Isaias Manoel",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -708,10 +565,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "17/07 sexta 19:30",
-    "obreiroPonto1": "Rafael",
+    "obreiroPonto1": "João",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Éder - Edivan",
-    "obreiroOferta": "Lucas - Ronaldo Moital",
+    "obreiroPonto3": "Hudson - Luiz",
+    "obreiroOferta": "Izaias Santos - Rafael",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -720,20 +577,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "19/07 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Isaias Manoel - Fabio",
-    "obreiroPonto3": "Rafael - Alanês",
-    "obreiroOferta": "Isaias Manoel - Fabio - Gisele - Aline",
-    "obreiroOfertaMaquininha": "Lene - Luiz - João"
+    "obreiroPonto2": "Éder - Alanês",
+    "obreiroPonto3": "Lucas - Edivan",
+    "obreiroOferta": "Gisele - Alanês - Lucimar - Éder",
+    "obreiroOfertaMaquininha": "Isaias Pereira - Lene - João - Fabio"
   },
   {
     "dataHoraId": "2026-07-22T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "22/07 quarta 19:30",
-    "obreiroPonto1": "Hudson",
+    "obreiroPonto1": "Isaias Manoel",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Izaias Santos - Isaias Pereira",
-    "obreiroOferta": "Lene - Éder",
+    "obreiroPonto3": "Ronaldo Moital - Luiz",
+    "obreiroOferta": "Lene - Hudson",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -741,10 +598,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "24/07 sexta 19:30",
-    "obreiroPonto1": "Edivan",
+    "obreiroPonto1": "Rafael",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Lucas - Ronaldo Moital",
-    "obreiroOferta": "Isaias Manoel - Fabio",
+    "obreiroPonto3": "Éder - Izaias Santos",
+    "obreiroOferta": "Alanês - Isaias Manoel",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -752,21 +609,21 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "26/07 domingo 18:30",
-    "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Hudson - Izaias Santos",
-    "obreiroPonto3": "Isaias Pereira - Rafael",
-    "obreiroOferta": "Hudson - Izaias Santos - Cilene - Gisele",
-    "obreiroOfertaMaquininha": "Alanês - Luiz - João"
+    "obreiroPonto1": "Edivan",
+    "obreiroPonto2": "Ronaldo Moital - Lucas",
+    "obreiroPonto3": "Tiago - Isaias Pereira",
+    "obreiroOferta": "Ronaldo Moital - Cilene - Lucas - Aline",
+    "obreiroOfertaMaquininha": "Luiz - Rafael - Lene - Fabio"
   },
   {
     "dataHoraId": "2026-07-29T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "29/07 quarta 19:30",
-    "obreiroPonto1": "Edivan",
+    "obreiroPonto1": "Hudson",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Lucas - Ronaldo Moital",
-    "obreiroOferta": "Lene - Éder",
+    "obreiroPonto3": "João - Izaias Santos",
+    "obreiroOferta": "Éder - Alanês",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -774,10 +631,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "31/07 sexta 19:30",
-    "obreiroPonto1": "Isaias Manoel",
+    "obreiroPonto1": "Ronaldo Moital",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Hudson - Fabio",
-    "obreiroOferta": "Izaias Santos - Isaias Pereira",
+    "obreiroPonto3": "Lucas - Edivan",
+    "obreiroOferta": "Fabio - Isaias Pereira",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -786,10 +643,10 @@
     "cultoDeSantaCeia": true,
     "dataHoraCulto": "02/08 domingo 10:00",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Rafael - Alanês",
-    "obreiroPonto3": "Luiz - João",
-    "obreiroOferta": "Rafael - Alanês - Lucimar - Aline",
-    "obreiroOfertaMaquininha": "Edivan - Lucas - Lene"
+    "obreiroPonto2": "Hudson - Isaias Manoel",
+    "obreiroPonto3": "Rafael - João",
+    "obreiroOferta": "Lucimar - Isaias Manoel - Gisele - Hudson",
+    "obreiroOfertaMaquininha": "Izaias Santos - Éder - Lene - Luiz"
   },
   {
     "dataHoraId": "2026-08-02T18:30:00",
@@ -797,20 +654,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "02/08 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Ronaldo Moital - Éder",
-    "obreiroPonto3": "Isaias Manoel - Fabio",
-    "obreiroOferta": "Ronaldo Moital - Éder - Cilene - Lucimar",
-    "obreiroOfertaMaquininha": "Rafael - Alanês - Luiz"
+    "obreiroPonto2": "Alanês - Isaias Manoel",
+    "obreiroPonto3": "Luiz - Ronaldo Moital",
+    "obreiroOferta": "Cilene - Isaias Manoel - Aline - Alanês",
+    "obreiroOfertaMaquininha": "Fabio - Isaias Pereira - Edivan - Lucas"
   },
   {
     "dataHoraId": "2026-08-05T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "05/08 quarta 19:30",
-    "obreiroPonto1": "João",
+    "obreiroPonto1": "Hudson",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Hudson - Izaias Santos",
-    "obreiroOferta": "Isaias Pereira - Ronaldo Moital",
+    "obreiroPonto3": "Rafael - João",
+    "obreiroOferta": "Izaias Santos - Lene",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -818,10 +675,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "07/08 sexta 19:30",
-    "obreiroPonto1": "Éder",
+    "obreiroPonto1": "Alanês",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Edivan - Lucas",
-    "obreiroOferta": "Isaias Manoel - Fabio",
+    "obreiroPonto3": "Éder - Isaias Manoel",
+    "obreiroOferta": "Luiz - Ronaldo Moital",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -830,20 +687,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "09/08 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "João - Hudson",
-    "obreiroPonto3": "Izaias Santos - Isaias Pereira",
-    "obreiroOferta": "João - Hudson - Gisele - Aline",
-    "obreiroOfertaMaquininha": "Lene - Rafael - Alanês"
+    "obreiroPonto2": "Edivan - Lucas",
+    "obreiroPonto3": "Fabio - Isaias Pereira",
+    "obreiroOferta": "Lucimar - Edivan - Gisele - Lucas",
+    "obreiroOfertaMaquininha": "Hudson - João - Rafael - Lene"
   },
   {
     "dataHoraId": "2026-08-12T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "12/08 quarta 19:30",
-    "obreiroPonto1": "Luiz",
+    "obreiroPonto1": "Izaias Santos",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Éder - Edivan",
-    "obreiroOferta": "Lene - Lucas",
+    "obreiroPonto3": "Éder - Alanês",
+    "obreiroOferta": "Lucas - Edivan",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -851,10 +708,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "14/08 sexta 19:30",
-    "obreiroPonto1": "Ronaldo Moital",
+    "obreiroPonto1": "Isaias Pereira",
     "obreiroPonto2": "-",
     "obreiroPonto3": "Isaias Manoel - Fabio",
-    "obreiroOferta": "Luiz - Éder",
+    "obreiroOferta": "Luiz - Ronaldo Moital",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -863,20 +720,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "16/08 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Ronaldo Moital - Edivan",
-    "obreiroPonto3": "Lucas - João",
-    "obreiroOferta": "Ronaldo Moital - Edivan - Cilene - Gisele",
-    "obreiroOfertaMaquininha": "Lene - Hudson - Izaias Santos"
+    "obreiroPonto2": "João - Hudson",
+    "obreiroPonto3": "Izaias Santos - Rafael",
+    "obreiroOferta": "João - Cilene - Hudson - Aline",
+    "obreiroOfertaMaquininha": "Isaias Pereira - Lene - Alanês - Éder"
   },
   {
     "dataHoraId": "2026-08-19T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "19/08 quarta 19:30",
-    "obreiroPonto1": "Isaias Pereira",
+    "obreiroPonto1": "Isaias Manoel",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Rafael - Alanês",
-    "obreiroOferta": "Isaias Manoel - Fabio",
+    "obreiroPonto3": "Fabio - Luiz",
+    "obreiroOferta": "Lucas - Ronaldo Moital",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -884,10 +741,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "21/08 sexta 19:30",
-    "obreiroPonto1": "Isaias Pereira",
+    "obreiroPonto1": "Edivan",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Rafael - Alanês",
-    "obreiroOferta": "Ronaldo Moital - Edivan",
+    "obreiroPonto3": "João - Hudson",
+    "obreiroOferta": "Rafael - Izaias Santos",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -896,19 +753,19 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "23/08 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Lucas - João",
-    "obreiroPonto3": "Hudson - Izaias Santos",
-    "obreiroOferta": "Lucas - João - Aline - Lucimar",
-    "obreiroOfertaMaquininha": "Lene - Luiz - Éder"
+    "obreiroPonto2": "Isaias Manoel - Alanês",
+    "obreiroPonto3": "Edivan - Éder",
+    "obreiroOferta": "Alanês - Lucimar - Isaias Manoel - Gisele",
+    "obreiroOfertaMaquininha": "Lucas - Lene - Fabio - Luiz"
   },
   {
     "dataHoraId": "2026-08-26T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "26/08 quarta 19:30",
-    "obreiroPonto1": "Isaias Manoel",
+    "obreiroPonto1": "Ronaldo Moital",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Fabio - Lucas",
+    "obreiroPonto3": "Hudson - Isaias Pereira",
     "obreiroOferta": "Lene - João",
     "obreiroOfertaMaquininha": "-"
   },
@@ -917,10 +774,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "28/08 sexta 19:30",
-    "obreiroPonto1": "Hudson",
+    "obreiroPonto1": "Rafael",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Izaias Santos - Luiz",
-    "obreiroOferta": "Éder - Isaias Pereira",
+    "obreiroPonto3": "Izaias Santos - Isaias Manoel",
+    "obreiroOferta": "Éder - Alanês",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -929,20 +786,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "30/08 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Rafael - Alanês",
-    "obreiroPonto3": "Ronaldo Moital - Edivan",
-    "obreiroOferta": "Rafael - Alanês - Cilene - Aline",
-    "obreiroOfertaMaquininha": "Fabio - Hudson - Izaias Santos"
+    "obreiroPonto2": "Ronaldo Moital - Lucas",
+    "obreiroPonto3": "Edivan - Isaias Pereira",
+    "obreiroOferta": "Aline - Lucas - Ronaldo Moital - Cilene",
+    "obreiroOfertaMaquininha": "Luiz - Fabio - Rafael - Lene"
   },
   {
     "dataHoraId": "2026-09-02T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "02/09 quarta 19:30",
-    "obreiroPonto1": "Isaias Manoel",
+    "obreiroPonto1": "Hudson",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Rafael - Alanês",
-    "obreiroOferta": "Ronaldo Moital - Edivan",
+    "obreiroPonto3": "Izaias Santos - João",
+    "obreiroOferta": "Lucas - Isaias Manoel",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -950,10 +807,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "04/09 sexta 19:30",
-    "obreiroPonto1": "Luiz",
+    "obreiroPonto1": "Alanês",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Éder - Isaias Pereira",
-    "obreiroOferta": "Lucas - João",
+    "obreiroPonto3": "Hudson - João",
+    "obreiroOferta": "Isaias Pereira - Ronaldo Moital",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -962,10 +819,10 @@
     "cultoDeSantaCeia": true,
     "dataHoraCulto": "06/09 domingo 10:00",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Isaias Manoel - Fabio",
-    "obreiroPonto3": "Luiz - Éder",
-    "obreiroOferta": "Isaias Manoel - Fabio - Lucimar - Gisele",
-    "obreiroOfertaMaquininha": "Lene - Isaias Pereira - Lucas"
+    "obreiroPonto2": "Fabio - Edivan",
+    "obreiroPonto3": "Rafael - Luiz",
+    "obreiroOferta": "Fabio - Gisele - Lucimar - Edivan",
+    "obreiroOfertaMaquininha": "Izaias Santos - Lene - Alanês - Éder"
   },
   {
     "dataHoraId": "2026-09-06T18:30:00",
@@ -973,20 +830,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "06/09 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "João - Rafael",
-    "obreiroPonto3": "Alanês - Ronaldo Moital",
-    "obreiroOferta": "João - Rafael - Cilene - Aline",
-    "obreiroOfertaMaquininha": "Lene - Edivan - Hudson"
+    "obreiroPonto2": "Lucas - Isaias Manoel",
+    "obreiroPonto3": "Fabio - Edivan",
+    "obreiroOferta": "Cilene - Aline - Lucas - Isaias Manoel",
+    "obreiroOfertaMaquininha": "Luiz - Lene - Rafael - Éder"
   },
   {
     "dataHoraId": "2026-09-09T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "09/09 quarta 19:30",
-    "obreiroPonto1": "Izaias Santos",
+    "obreiroPonto1": "Hudson",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Isaias Manoel - Fabio",
-    "obreiroOferta": "Lene - João",
+    "obreiroPonto3": "João - Ronaldo Moital",
+    "obreiroOferta": "Izaias Santos - Isaias Pereira",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -994,10 +851,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "11/09 sexta 19:30",
-    "obreiroPonto1": "Izaias Santos",
+    "obreiroPonto1": "Lucas",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Rafael - Alanês",
-    "obreiroOferta": "Ronaldo Moital - Edivan",
+    "obreiroPonto3": "Alanês - Isaias Manoel",
+    "obreiroOferta": "Hudson - João",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1006,20 +863,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "13/09 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Hudson - Luiz",
-    "obreiroPonto3": "Éder - Isaias Pereira",
-    "obreiroOferta": "Hudson - Luiz - Lucimar - Gisele",
-    "obreiroOfertaMaquininha": "Lucas - Fabio - Izaias Santos"
+    "obreiroPonto2": "Isaias Pereira - Ronaldo Moital",
+    "obreiroPonto3": "Edivan - Fabio",
+    "obreiroOferta": "Isaias Pereira - Ronaldo Moital - Lucimar - Cilene",
+    "obreiroOfertaMaquininha": "Rafael - Éder - Lene - Luiz"
   },
   {
     "dataHoraId": "2026-09-16T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "16/09 quarta 19:30",
-    "obreiroPonto1": "Isaias Manoel",
+    "obreiroPonto1": "Izaias Santos",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Hudson - Luiz",
-    "obreiroOferta": "Éder - Isaias Pereira",
+    "obreiroPonto3": "Lucas - Isaias Manoel",
+    "obreiroOferta": "Ronaldo Moital - Alanês",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1027,10 +884,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "18/09 sexta 19:30",
-    "obreiroPonto1": "Lucas",
+    "obreiroPonto1": "Isaias Pereira",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Rafael - Alanês",
-    "obreiroOferta": "Ronaldo Moital - Edivan",
+    "obreiroPonto3": "Edivan - Fabio",
+    "obreiroOferta": "Luiz - Rafael",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1039,20 +896,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "20/09 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "João - Isaias Manoel",
-    "obreiroPonto3": "Fabio - Lucas",
-    "obreiroOferta": "João - Isaias Manoel - Cilene - Aline",
-    "obreiroOfertaMaquininha": "Lene - Rafael - Alanês"
+    "obreiroPonto2": "Éder - Hudson",
+    "obreiroPonto3": "João - Izaias Santos",
+    "obreiroOferta": "Hudson - Gisele - Aline - Éder",
+    "obreiroOfertaMaquininha": "Lene - Alanês - Edivan - Isaias Pereira"
   },
   {
     "dataHoraId": "2026-09-23T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "23/09 quarta 19:30",
-    "obreiroPonto1": "João",
+    "obreiroPonto1": "Isaias Manoel",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Moital - Edivan",
-    "obreiroOferta": "Lene - Hudson",
+    "obreiroPonto3": "Hudson - Éder",
+    "obreiroOferta": "João - Lene",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1060,10 +917,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "25/09 sexta 19:30",
-    "obreiroPonto1": "Luiz",
+    "obreiroPonto1": "Fabio",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Éder - Isaias Pereira",
-    "obreiroOferta": "Izaias Santos - Isaias Manoel",
+    "obreiroPonto3": "Luiz - Rafael",
+    "obreiroOferta": "Ronaldo Moital - Lucas",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1071,11 +928,11 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "27/09 domingo 18:30",
-    "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Fabio - Luiz",
-    "obreiroPonto3": "Éder - Isaias Pereira",
-    "obreiroOferta": "Fabio - Luiz - Lucimar - Gisele",
-    "obreiroOfertaMaquininha": "Izaias Santos - Lene - João"
+    "obreiroPonto1": "Fabio",
+    "obreiroPonto2": "Isaias Manoel - Izaias Santos",
+    "obreiroPonto3": "Tiago - Luiz",
+    "obreiroOferta": "Gisele - Isaias Manoel - Lucimar - Izaias Santos",
+    "obreiroOfertaMaquininha": "Rafael - Lene - Éder - Lucas"
   },
   {
     "dataHoraId": "2026-09-30T19:30:00",
@@ -1084,8 +941,8 @@
     "dataHoraCulto": "30/09 quarta 19:30",
     "obreiroPonto1": "Ronaldo Moital",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Edivan - Hudson",
-    "obreiroOferta": "Lucas - Rafael",
+    "obreiroPonto3": "Hudson - João",
+    "obreiroOferta": "Alanês - Isaias Pereira",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1093,10 +950,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "02/10 sexta 19:30",
-    "obreiroPonto1": "Alanês",
+    "obreiroPonto1": "Edivan",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Fabio - Isaias Manoel",
-    "obreiroOferta": "Ronaldo Moital - Edivan",
+    "obreiroPonto3": "Izaias Santos - Isaias Manoel",
+    "obreiroOferta": "Hudson - Ronaldo Moital",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1105,10 +962,10 @@
     "cultoDeSantaCeia": true,
     "dataHoraCulto": "04/10 domingo 10:00",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Alanês - Hudson",
-    "obreiroPonto3": "Lucas - Rafael",
-    "obreiroOferta": "Alanês - Hudson - Cilene - Aline",
-    "obreiroOfertaMaquininha": "Luiz - Éder - Isaias Pereira"
+    "obreiroPonto2": "Edivan - João",
+    "obreiroPonto3": "Alanês - Isaias Pereira",
+    "obreiroOferta": "João - Cilene - Aline - Edivan",
+    "obreiroOfertaMaquininha": "Fabio - Rafael - Lucas - Luiz"
   },
   {
     "dataHoraId": "2026-10-04T18:30:00",
@@ -1116,19 +973,19 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "04/10 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Izaias Santos - João",
-    "obreiroPonto3": "Fabio - Isaias Manoel",
-    "obreiroOferta": "Izaias Santos - João - Lucimar - Gisele",
-    "obreiroOfertaMaquininha": "Lene - Alanês - Hudson"
+    "obreiroPonto2": "Éder - Izaias Santos",
+    "obreiroPonto3": "Edivan - Isaias Manoel",
+    "obreiroOferta": "Aline - Éder - Lucimar - Izaias Santos",
+    "obreiroOfertaMaquininha": "Lene - Alanês - João - Isaias Pereira"
   },
   {
     "dataHoraId": "2026-10-07T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "07/10 quarta 19:30",
-    "obreiroPonto1": "Izaias Santos",
+    "obreiroPonto1": "Éder",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "João - Lucas",
+    "obreiroPonto3": "Luiz - Fabio",
     "obreiroOferta": "Lene - Rafael",
     "obreiroOfertaMaquininha": "-"
   },
@@ -1137,10 +994,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "09/10 sexta 19:30",
-    "obreiroPonto1": "Luiz",
+    "obreiroPonto1": "Lucas",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Éder - Isaias Pereira",
-    "obreiroOferta": "Ronaldo Moital - Edivan",
+    "obreiroPonto3": "Hudson - Ronaldo Moital",
+    "obreiroOferta": "Izaias Santos - Isaias Manoel",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1149,20 +1006,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "11/10 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Fabio - Isaias Manoel",
-    "obreiroPonto3": "Luiz - Éder",
-    "obreiroOferta": "Fabio - Isaias Manoel - Cilene - Aline",
-    "obreiroOfertaMaquininha": "Isaias Pereira - Edivan - Izaias Santos"
+    "obreiroPonto2": "Lucas - Ronaldo Moital",
+    "obreiroPonto3": "Éder - Hudson",
+    "obreiroOferta": "Gisele - Ronaldo Moital - Lucas - Cilene",
+    "obreiroOfertaMaquininha": "Fabio - Rafael - Luiz - Lene"
   },
   {
     "dataHoraId": "2026-10-14T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "14/10 quarta 19:30",
-    "obreiroPonto1": "Ronaldo Moital",
+    "obreiroPonto1": "Edivan",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "João - Lucas",
-    "obreiroOferta": "Lene - Rafael",
+    "obreiroPonto3": "João - Alanês",
+    "obreiroOferta": "Izaias Santos - Isaias Pereira",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1170,10 +1027,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "16/10 sexta 19:30",
-    "obreiroPonto1": "Alanês",
+    "obreiroPonto1": "Isaias Manoel",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Hudson - Isaias Manoel",
-    "obreiroOferta": "Ronaldo Moital - João",
+    "obreiroPonto3": "João - Edivan",
+    "obreiroOferta": "Alanês - Isaias Pereira",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1182,20 +1039,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "18/10 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Alanês - Hudson",
-    "obreiroPonto3": "Lucas - Rafael",
-    "obreiroOferta": "Alanês - Hudson - Lucimar - Gisele",
-    "obreiroOfertaMaquininha": "Lene - Fabio - Luiz"
+    "obreiroPonto2": "Ronaldo Moital - Lucas",
+    "obreiroPonto3": "Éder - Hudson",
+    "obreiroOferta": "Lucimar - Ronaldo Moital - Lucas - Cilene",
+    "obreiroOfertaMaquininha": "Lene - Luiz - Fabio - Rafael"
   },
   {
     "dataHoraId": "2026-10-21T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "21/10 quarta 19:30",
-    "obreiroPonto1": "Éder",
+    "obreiroPonto1": "Izaias Santos",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Isaias Pereira - Edivan",
-    "obreiroOferta": "Izaias Santos - Alanês",
+    "obreiroPonto3": "Lucas - Isaias Manoel",
+    "obreiroOferta": "Hudson - Ronaldo Moital",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1205,8 +1062,8 @@
     "dataHoraCulto": "23/10 sexta 19:30",
     "obreiroPonto1": "Éder",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Isaias Pereira - Edivan",
-    "obreiroOferta": "Izaias Santos - Hudson",
+    "obreiroPonto3": "Fabio - Luiz",
+    "obreiroOferta": "Edivan - Rafael",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1215,10 +1072,10 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "25/10 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Lucas - Rafael",
-    "obreiroPonto3": "Fabio - Luiz",
-    "obreiroOferta": "Lucas - Rafael - Cilene - Aline",
-    "obreiroOfertaMaquininha": "Lene - João - Éder"
+    "obreiroPonto2": "Alanês - João",
+    "obreiroPonto3": "Isaias Pereira - Izaias Santos",
+    "obreiroOferta": "João - Gisele - Alanês - Aline",
+    "obreiroOfertaMaquininha": "Fabio - Luiz - Éder - Lene"
   },
   {
     "dataHoraId": "2026-10-28T19:30:00",
@@ -1227,8 +1084,8 @@
     "dataHoraCulto": "28/10 quarta 19:30",
     "obreiroPonto1": "Isaias Manoel",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Moital - Lucas",
-    "obreiroOferta": "Lene - Rafael",
+    "obreiroPonto3": "Alanês - João",
+    "obreiroOferta": "Isaias Pereira - Lene",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1236,10 +1093,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "30/10 sexta 19:30",
-    "obreiroPonto1": "Isaias Manoel",
+    "obreiroPonto1": "Rafael",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Moital - Fabio",
-    "obreiroOferta": "Luiz - João",
+    "obreiroPonto3": "Lucas - Edivan",
+    "obreiroOferta": "Ronaldo Moital - Hudson",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1248,10 +1105,10 @@
     "cultoDeSantaCeia": true,
     "dataHoraCulto": "01/11 domingo 10:00",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Isaias Pereira - Edivan",
-    "obreiroPonto3": "Izaias Santos - Hudson",
-    "obreiroOferta": "Isaias Pereira - Edivan - Lucimar - Gisele",
-    "obreiroOfertaMaquininha": "Alanês - Fabio - Luiz"
+    "obreiroPonto2": "Isaias Manoel - Izaias Santos",
+    "obreiroPonto3": "Rafael - Edivan",
+    "obreiroOferta": "Lucimar - Isaias Manoel - Cilene - Izaias Santos",
+    "obreiroOfertaMaquininha": "Lucas - Hudson - Lene - João"
   },
   {
     "dataHoraId": "2026-11-01T18:30:00",
@@ -1259,10 +1116,10 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "01/11 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Isaias Pereira - Edivan",
-    "obreiroPonto3": "Izaias Santos - Hudson",
-    "obreiroOferta": "Isaias Pereira - Edivan - Cilene - Aline",
-    "obreiroOfertaMaquininha": "Alanês - João - Lene"
+    "obreiroPonto2": "Alanês - Ronaldo Moital",
+    "obreiroPonto3": "Isaias Pereira - Éder",
+    "obreiroOferta": "Alanês - Aline - Ronaldo Moital - Gisele",
+    "obreiroOfertaMaquininha": "Izaias Santos - Rafael - Fabio - Luiz"
   },
   {
     "dataHoraId": "2026-11-04T19:30:00",
@@ -1271,8 +1128,8 @@
     "dataHoraCulto": "04/11 quarta 19:30",
     "obreiroPonto1": "Isaias Manoel",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Moital - Lucas",
-    "obreiroOferta": "Rafael - Éder",
+    "obreiroPonto3": "Ronaldo Moital - Alanês",
+    "obreiroOferta": "Éder - Isaias Pereira",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1280,10 +1137,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "06/11 sexta 19:30",
-    "obreiroPonto1": "Isaias Manoel",
+    "obreiroPonto1": "Fabio",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Moital - Lucas",
-    "obreiroOferta": "Rafael - Éder",
+    "obreiroPonto3": "Edivan - Luiz",
+    "obreiroOferta": "Lucas - Hudson",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1292,20 +1149,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "08/11 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Isaias Pereira - Edivan",
-    "obreiroPonto3": "Izaias Santos - Hudson",
-    "obreiroOferta": "Isaias Pereira - Edivan - Lucimar - Gisele",
-    "obreiroOfertaMaquininha": "Alanês - João - Lene"
+    "obreiroPonto2": "João - Izaias Santos",
+    "obreiroPonto3": "Fabio - Isaias Manoel",
+    "obreiroOferta": "João - Izaias Santos - Cilene - Lucimar",
+    "obreiroOfertaMaquininha": "Lene - Edivan - Luiz - Lucas"
   },
   {
     "dataHoraId": "2026-11-11T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "11/11 quarta 19:30",
-    "obreiroPonto1": "Fabio",
+    "obreiroPonto1": "João",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Luiz - Isaias Pereira",
-    "obreiroOferta": "Edivan - Izaias Santos",
+    "obreiroPonto3": "Ronaldo Moital - Hudson",
+    "obreiroOferta": "Alanês - Lene",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1313,10 +1170,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "13/11 sexta 19:30",
-    "obreiroPonto1": "Fabio",
+    "obreiroPonto1": "Isaias Pereira",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Luiz - Hudson",
-    "obreiroOferta": "Alanês - João",
+    "obreiroPonto3": "Éder - Rafael",
+    "obreiroOferta": "Isaias Manoel - Izaias Santos",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1325,20 +1182,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "15/11 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Isaias Manoel - Ronaldo Moital",
-    "obreiroPonto3": "Lucas - Rafael",
-    "obreiroOferta": "Isaias Manoel - Ronaldo Moital - Cilene - Aline",
-    "obreiroOfertaMaquininha": "Lene - Éder - Fabio"
+    "obreiroPonto2": "Éder - Isaias Pereira",
+    "obreiroPonto3": "Rafael - João",
+    "obreiroOferta": "Aline - Éder - Gisele - Isaias Pereira",
+    "obreiroOfertaMaquininha": "Alanês - Fabio - Lene - Hudson"
   },
   {
     "dataHoraId": "2026-11-18T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "18/11 quarta 19:30",
-    "obreiroPonto1": "Isaias Manoel",
+    "obreiroPonto1": "Ronaldo Moital",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Moital - Lucas",
-    "obreiroOferta": "Lene - Rafael",
+    "obreiroPonto3": "Luiz - Edivan",
+    "obreiroOferta": "Lucas - Izaias Santos",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1346,10 +1203,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "20/11 sexta 19:30",
-    "obreiroPonto1": "Éder",
+    "obreiroPonto1": "Isaias Manoel",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Luiz - Hudson",
-    "obreiroOferta": "Alanês - João",
+    "obreiroPonto3": "Luiz - Ronaldo Moital",
+    "obreiroOferta": "Lucas - Edivan",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1358,20 +1215,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "22/11 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Isaias Pereira - Edivan",
-    "obreiroPonto3": "Izaias Santos - Éder",
-    "obreiroOferta": "Isaias Pereira - Edivan - Lucimar - Gisele",
-    "obreiroOfertaMaquininha": "Luiz - Hudson - Alanês"
+    "obreiroPonto2": "Isaias Pereira - Éder",
+    "obreiroPonto3": "João - Rafael",
+    "obreiroOferta": "Lucimar - Isaias Pereira - Éder - Cilene",
+    "obreiroOfertaMaquininha": "Lene - Alanês - Hudson - Fabio"
   },
   {
     "dataHoraId": "2026-11-25T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "25/11 quarta 19:30",
-    "obreiroPonto1": "Isaias Pereira",
+    "obreiroPonto1": "Izaias Santos",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Edivan - Izaias Santos",
-    "obreiroOferta": "João - Lene",
+    "obreiroPonto3": "Isaias Pereira - Isaias Manoel",
+    "obreiroOferta": "Rafael - Éder",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1379,10 +1236,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "27/11 sexta 19:30",
-    "obreiroPonto1": "Isaias Manoel",
+    "obreiroPonto1": "João",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Moital - Lucas",
-    "obreiroOferta": "Rafael - Fabio",
+    "obreiroPonto3": "Alanês - Hudson",
+    "obreiroOferta": "Ronaldo Moital - Fabio",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1391,20 +1248,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "29/11 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Isaias Manoel - Ronaldo Moital",
-    "obreiroPonto3": "Lucas - Rafael",
-    "obreiroOferta": "Isaias Manoel - Ronaldo Moital - Cilene - Aline",
-    "obreiroOfertaMaquininha": "Fabio - Isaias Pereira - Edivan"
+    "obreiroPonto2": "Luiz - Edivan",
+    "obreiroPonto3": "Izaias Santos - Lucas",
+    "obreiroOferta": "Aline - Luiz - Gisele - Edivan",
+    "obreiroOfertaMaquininha": "Hudson - Alanês - Lene - João"
   },
   {
     "dataHoraId": "2026-12-02T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "02/12 quarta 19:30",
-    "obreiroPonto1": "Izaias Santos",
+    "obreiroPonto1": "Isaias Manoel",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "João - Éder",
-    "obreiroOferta": "Lene - Luiz",
+    "obreiroPonto3": "Edivan - Luiz",
+    "obreiroOferta": "Lucas - Lene",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1412,10 +1269,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "04/12 sexta 19:30",
-    "obreiroPonto1": "Hudson",
+    "obreiroPonto1": "Fabio",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Alanês - Izaias Santos",
-    "obreiroOferta": "João - Éder",
+    "obreiroPonto3": "Ronaldo Moital - Isaias Pereira",
+    "obreiroOferta": "Rafael - Éder",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1424,10 +1281,10 @@
     "cultoDeSantaCeia": true,
     "dataHoraCulto": "06/12 domingo 10:00",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Hudson - Alanês",
-    "obreiroPonto3": "Luiz - Isaias Manoel",
-    "obreiroOferta": "Hudson - Alanês - Lucimar - Gisele",
-    "obreiroOfertaMaquininha": "Lene - Lucas - Rafael"
+    "obreiroPonto2": "Isaias Manoel - Izaias Santos",
+    "obreiroPonto3": "Ronaldo Moital - Fabio",
+    "obreiroOferta": "Lucimar - Izaias Santos - Cilene - Isaias Manoel",
+    "obreiroOfertaMaquininha": "Lene - Éder - Rafael - Isaias Pereira"
   },
   {
     "dataHoraId": "2026-12-06T18:30:00",
@@ -1435,20 +1292,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "06/12 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Ronaldo Moital - Fabio",
-    "obreiroPonto3": "Isaias Pereira - Edivan",
-    "obreiroOferta": "Ronaldo Moital - Fabio - Cilene - Aline",
-    "obreiroOfertaMaquininha": "Hudson - Alanês - Lene"
+    "obreiroPonto2": "Luiz - Edivan",
+    "obreiroPonto3": "João - Lucas",
+    "obreiroOferta": "Gisele - Aline - Edivan - Luiz",
+    "obreiroOfertaMaquininha": "Hudson - Izaias Santos - Fabio - Alanês"
   },
   {
     "dataHoraId": "2026-12-09T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "09/12 quarta 19:30",
-    "obreiroPonto1": "Ronaldo Moital",
+    "obreiroPonto1": "Isaias Manoel",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Fabio - Isaias Pereira",
-    "obreiroOferta": "Edivan - Luiz",
+    "obreiroPonto3": "Edivan - Luiz",
+    "obreiroOferta": "João - Lucas",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1456,10 +1313,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "11/12 sexta 19:30",
-    "obreiroPonto1": "Isaias Manoel",
+    "obreiroPonto1": "Hudson",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Lucas - Rafael",
-    "obreiroOferta": "Izaias Santos - João",
+    "obreiroPonto3": "Alanês - Ronaldo Moital",
+    "obreiroOferta": "Éder - Isaias Pereira",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1468,20 +1325,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "13/12 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Éder - Isaias Manoel",
-    "obreiroPonto3": "Lucas - Rafael",
-    "obreiroOferta": "Éder - Isaias Manoel - Lucimar - Gisele",
-    "obreiroOfertaMaquininha": "Izaias Santos - João - Fabio"
+    "obreiroPonto2": "Rafael - Izaias Santos",
+    "obreiroPonto3": "Hudson - Isaias Manoel",
+    "obreiroOferta": "Rafael - Cilene - Izaias Santos - Lucimar",
+    "obreiroOfertaMaquininha": "Éder - Alanês - Lene - Isaias Pereira"
   },
   {
     "dataHoraId": "2026-12-16T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "16/12 quarta 19:30",
-    "obreiroPonto1": "Éder",
+    "obreiroPonto1": "Rafael",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Ronaldo Moital - Isaias Pereira",
-    "obreiroOferta": "Edivan - Luiz",
+    "obreiroPonto3": "Ronaldo Moital - Luiz",
+    "obreiroOferta": "Lene - Edivan",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1489,10 +1346,10 @@
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "18/12 sexta 19:30",
-    "obreiroPonto1": "Hudson",
+    "obreiroPonto1": "Lucas",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Alanês - Éder",
-    "obreiroOferta": "Ronaldo Moital - Isaias Pereira",
+    "obreiroPonto3": "Fabio - João",
+    "obreiroOferta": "Isaias Manoel - Izaias Santos",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1501,20 +1358,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "20/12 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Hudson - Alanês",
-    "obreiroPonto3": "Edivan - Luiz",
-    "obreiroOferta": "Hudson - Alanês - Cilene - Aline",
-    "obreiroOfertaMaquininha": "Lene - Lucas - Rafael"
+    "obreiroPonto2": "João - Lucas",
+    "obreiroPonto3": "Rafael - Fabio",
+    "obreiroOferta": "Gisele - João - Aline - Lucas",
+    "obreiroOfertaMaquininha": "Lene - Hudson - Luiz - Edivan"
   },
   {
     "dataHoraId": "2026-12-23T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "23/12 quarta 19:30",
-    "obreiroPonto1": "Isaias Manoel",
+    "obreiroPonto1": "Ronaldo Moital",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Izaias Santos - João",
-    "obreiroOferta": "Lene - Fabio",
+    "obreiroPonto3": "Isaias Pereira - Alanês",
+    "obreiroOferta": "Éder - Izaias Santos",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1524,8 +1381,8 @@
     "dataHoraCulto": "25/12 sexta 19:30",
     "obreiroPonto1": "Isaias Manoel",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Izaias Santos - João",
-    "obreiroOferta": "Fabio - Hudson",
+    "obreiroPonto3": "Ronaldo Moital - Alanês",
+    "obreiroOferta": "Éder - Isaias Pereira",
     "obreiroOfertaMaquininha": "-"
   },
   {
@@ -1534,20 +1391,20 @@
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "27/12 domingo 18:30",
     "obreiroPonto1": "Tiago",
-    "obreiroPonto2": "Alanês - Edivan",
-    "obreiroPonto3": "Luiz - Lucas",
-    "obreiroOferta": "Alanês - Edivan - Lucimar - Gisele",
-    "obreiroOfertaMaquininha": "Lene - Rafael - Éder"
+    "obreiroPonto2": "Lucas - João",
+    "obreiroPonto3": "Fabio - Rafael",
+    "obreiroOferta": "João - Cilene - Lucimar - Lucas",
+    "obreiroOfertaMaquininha": "Lene - Edivan - Luiz - Hudson"
   },
   {
     "dataHoraId": "2026-12-30T19:30:00",
     "idCongregacao": 1,
     "cultoDeSantaCeia": false,
     "dataHoraCulto": "30/12 quarta 19:30",
-    "obreiroPonto1": "Ronaldo Moital",
+    "obreiroPonto1": "Izaias Santos",
     "obreiroPonto2": "-",
-    "obreiroPonto3": "Isaias Pereira - Alanês",
-    "obreiroOferta": "Lene - Edivan",
+    "obreiroPonto3": "Isaias Manoel - Lucas",
+    "obreiroOferta": "Fabio - João",
     "obreiroOfertaMaquininha": "-"
   }
 ]
