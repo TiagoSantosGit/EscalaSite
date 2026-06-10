@@ -100,9 +100,13 @@
             <img class="ico" src="bible.png" alt="Bible" />
           </p>
         </div>
+        <button class="sheet-button" onclick="createSheet('Escala de Obreiros').then(result => alert('Planilha criada: ' + result.spreadsheetUrl)).catch(() => alert('Erro ao criar a planilha.'))">
+          Criar planilha no Google Drive
+        </button>
       </div>
   </footer>
 </body>
 <script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="sheet.js"></script>
 
 </html>
